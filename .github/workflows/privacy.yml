@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - iHafidh</title>
+    <meta name="description" content="Privacy Policy for iHafidh Quran Memorization App">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background-color: white;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #e1e1e1;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .app-name {
+            font-size: 1.8rem;
+            color: #27ae60;
+            margin-bottom: 0.5rem;
+        }
+
+        .effective-date {
+            color: #666;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e1e1e1;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        ul {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #27ae60;
+            margin: 1.5rem 0;
+        }
+
+        .parent-contact {
+            background-color: #fff3cd;
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid #ffeaa7;
+            margin-top: 1rem;
+        }
+
+        .compliance-list {
+            background-color: #e8f5e8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .footer-section {
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 3rem;
+            border-top: 1px solid #e1e1e1;
+            color: #666;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: #27ae60;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #e1e1e1;
+            margin: 3rem 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+            
+            .container {
+                padding: 2rem 1.5rem;
+            }
+            
+            .page-title {
+                font-size: 2rem;
+            }
+            
+            .app-name {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1 class="page-title">Privacy Policy</h1>
+            <div class="app-info">
+                <h2 class="app-name">iHafidh</h2>
+                <p class="effective-date">Effective Date: July 24, 2025</p>
+            </div>
+        </div>
+
+        <h2>Introduction</h2>
+        <p>Welcome to <strong>iHafidh</strong>, a Quran memorization application designed to help users of all ages, including children, learn and memorize the Holy Quran. We are committed to protecting your privacy and the privacy of children who use our app.</p>
+
+        <h2>Information We Collect</h2>
+        
+        <h3>Personal Information</h3>
+        <ul>
+            <li><strong>Account Information:</strong> We only collect usernames and email addresses for analytical purposes; providing them is optional and not required for logging in to the app and is option to provide via the settings page.</li>
+            <li><strong>Progress Data:</strong> Memorization progress, completed verses, and learning statistics are stored locally on your device.</li>
+            <li><strong>Age Information:</strong> Collected to ensure appropriate content and compliance with child protection laws.</li>
+        </ul>
+
+        <h3>Non-Personal Information</h3>
+        <ul>
+            <li><strong>Usage Analytics:</strong> General app usage statistics (anonymized).</li>
+            <li><strong>Device Information:</strong> Device type and OS version for compatibility purposes.</li>
+            <li><strong>Crash Reports:</strong> Technical data to improve app stability (no personal information included).</li>
+        </ul>
+
+        <h2>How We Use Information</h2>
+        <p>We use the collected information to:</p>
+        <ul>
+            <li>Track your memorization progress.</li>
+            <li>Improve app functionality and user experience.</li>
+            <li>Ensure age-appropriate content delivery.</li>
+            <li>Provide technical support when needed.</li>
+        </ul>
+
+        <h2>Children's Privacy (Under 13)</h2>
+        <p>We comply with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>:</p>
+        <ul>
+            <li><strong>Parental Consent:</strong> Required before collecting any personal information from children under 13.</li>
+            <li><strong>Limited Data Collection:</strong> Only information necessary for the app's educational functionality is collected.</li>
+            <li><strong>No Behavioral Advertising:</strong> We do not use children's personal information for behavioral advertising.</li>
+            <li><strong>Parental Rights:</strong>
+                <ul>
+                    <li>Review their child's information.</li>
+                    <li>Delete their child's data.</li>
+                    <li>Refuse further data collection.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Parental Controls</h2>
+        <p>Parents can:</p>
+        <ul>
+            <li>Review their child's personal information.</li>
+            <li>Request deletion of their child's account and data.</li>
+            <li>Refuse further data collection.</li>
+            <li>Contact us at <a href="mailto:ihafidhapp@gmail.com">ihafidhapp@gmail.com</a> for any privacy concerns.</li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+        <ul>
+            <li><strong>Local Storage:</strong> Most data is stored locally on your device.</li>
+            <li><strong>Secure Transmission:</strong> Data transmitted is encrypted using industry-standard protocols.</li>
+            <li><strong>Limited Access:</strong> Only authorized personnel can access collected data.</li>
+            <li><strong>Regular Updates:</strong> We regularly enhance our security measures.</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>Our app may use the following third-party services: AlQuran.cloud APIs</p>
+        <ul>
+            <li><strong>Analytics Services:</strong> For app improvement (anonymized data only).</li>
+            <li><strong>Cloud Storage:</strong> For backup (optional, with user consent).</li>
+        </ul>
+        <p>All third-party services are required to comply with children's privacy laws.</p>
+
+        <h2>Data Retention</h2>
+        <ul>
+            <li><strong>Account Data:</strong> Retained until account deletion is requested.</li>
+            <li><strong>Progress Data:</strong> Stored locally; deleted when app is uninstalled.</li>
+            <li><strong>Analytics Data:</strong> Anonymized and retained for up to 1 year for app improvement.</li>
+        </ul>
+
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Correct inaccurate information.</li>
+            <li>Delete your account and associated data.</li>
+            <li>Opt-out of optional data collection.</li>
+            <li>Request data portability.</li>
+        </ul>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this policy from time to time. Users will be notified of material changes by:</p>
+        <ul>
+            <li>Posting the updated policy in the app.</li>
+            <li>Sending an email notification (if applicable).</li>
+            <li>Obtaining renewed parental consent when required (for children's data).</li>
+        </ul>
+
+        <h2>Educational Purpose</h2>
+        <p>This app is intended for <strong>educational and religious purposes only</strong>. We are committed to creating a safe, educational environment for learning the Holy Quran.</p>
+
+        <h2>Contact Information</h2>
+        <p>If you have any questions about this policy or our data practices, please contact us:</p>
+        
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:ihafidhapp@gmail.com">ihafidhapp@gmail.com</a></p>
+            <p><strong>Address:</strong> Compassvale Drive, Singapore 542204</p>
+        </div>
+        
+        <div class="parent-contact">
+            <p><strong>For parental privacy concerns:</strong> Please contact us immediately at the above email.</p>
+        </div>
+
+        <h2>Compliance</h2>
+        <div class="compliance-list">
+            <p>This app complies with:</p>
+            <ul>
+                <li><strong>Children's Online Privacy Protection Act (COPPA)</strong></li>
+                <li><strong>General Data Protection Regulation (GDPR)</strong> (where applicable)</li>
+                <li><strong>Google Play</strong> and <strong>Apple App Store</strong> privacy requirements</li>
+                <li><strong>Local privacy laws</strong> in your jurisdiction</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="footer-section">
+            <p class="last-updated"><strong>Last Updated:</strong> July 24, 2025</p>
+            <p class="last-updated"><strong>App Version:</strong> 1.0.0</p>
+        </div>
+    </div>
+</body>
+</html>
