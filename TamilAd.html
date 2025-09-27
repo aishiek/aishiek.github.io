@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iHafidh App - Tamil Poster</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Noto Sans Tamil', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .poster {
+            background: linear-gradient(145deg, #ffffff 0%, #f8f9ff 100%);
+            border-radius: 25px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .poster::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .greeting {
+            font-size: 24px;
+            color: #4a5568;
+            margin-bottom: 30px;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .app-intro {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 25px 0;
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .app-name {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .app-description {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+        
+        .features {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .feature {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
+            border-radius: 12px;
+            border-left: 5px solid #48bb78;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(72, 187, 120, 0.2);
+        }
+        
+        .feature-text {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-left: 10px;
+        }
+        
+        .ai-credit {
+            background: linear-gradient(135deg, #ffd89b, #19547b);
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            margin: 25px 0;
+            font-size: 18px;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .download-section {
+            margin-top: 30px;
+        }
+        
+        .download-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 20px;
+        }
+        
+        .download-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 15px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        
+        .android-btn {
+            background: linear-gradient(135deg, #34d399, #10b981);
+            color: white;
+        }
+        
+        .ios-btn {
+            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+            color: white;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        
+        .download-btn:active {
+            transform: translateY(-1px);
+        }
+        
+        .platform-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            .poster {
+                padding: 25px;
+                margin: 10px;
+            }
+            
+            .app-name {
+                font-size: 24px;
+            }
+            
+            .download-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .download-btn {
+                width: 200px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="content">
+            <div class="greeting">
+                ✨ السلام عليكم ورحمه الله وبركاته ✨
+            </div>
+            
+            <div class="app-intro">
+                <div class="app-name">📱 புதிய App அறிமுகம் – iHafidh</div>
+                <div class="app-description">📖 குழந்தைகள் மற்றும் பெரியவர்கள் புனித குர்ஆனை மனப்பாடம் செய்ய உதவும் & ஊக்குவிக்கும் tracker App</div>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <span>✅</span>
+                    <div class="feature-text">ஆயத்துக்கு ஆயத்து gamified மனப்பாடம்</div>
+                </div>
+                <div class="feature">
+                    <span>✅</span>
+                    <div class="feature-text">முன்னேற்றக் கண்காணிப்பு & புள்ளிவிவரங்கள்</div>
+                </div>
+                <div class="feature">
+                    <span>✅</span>
+                    <div class="feature-text">வாழ்நாள் முழுவதும் மனப்பாடத்திற்கு உதவும்</div>
+                </div>
+                <div class="feature">
+                    <span>✅</span>
+                    <div class="feature-text">Login இல்லை | Ads இல்லை | Data சேகரிப்பு இல்லை</div>
+                </div>
+            </div>
+            
+            <div class="ai-credit">
+                🚀 முழுவதும் AI vibe coding மூலம் உருவாக்கப்பட்டது!
+            </div>
+            
+            <div class="download-section">
+                <div class="download-title">🔗 பதிவிறக்க:</div>
+                <div class="download-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.ihafidh" class="download-btn android-btn" target="_blank">
+                        <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                        </svg>
+                        Android
+                    </a>
+                    <a href="https://apps.apple.com/sg/app/ihafidh/id6752505055" class="download-btn ios-btn" target="_blank">
+                        <svg class="platform-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
+                        </svg>
+                        iOS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
