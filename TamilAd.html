@@ -2,6 +2,7 @@
 <html lang="ta">
 <head>
     <meta charset="UTF-8">
+    
     <meta property="og:title" content="iHafidh App - Quran Memorization Tracker" />
     <meta property="og:description" content="Checkout the must have Quran Companion app!." />
     <meta property="og:url" content="https://aishiek.github.io/TamilAd.html" />
@@ -14,16 +15,17 @@
     <meta name="twitter:title" content="iHafidh App - Quran Memorization Tracker" />
     <meta name="twitter:description" content="Checkout the must have Quran Companion app!." />
     <meta name="twitter:image" content="https://aishiek.github.io/images/preview-image.jpg" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iHafidh App - மனப்பாடம் செய்ய உதவும் செயலி</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
-        /* Define a cleaner, spiritual color palette */
+        /* --- Color Palette & Global Styles --- */
         :root {
-            --color-primary: #00796B; /* Deep Teal/Green - Trustworthy */
-            --color-secondary: #FFC107; /* Gold/Amber - Accent/Value */
+            --color-primary: #00796B; /* Deep Teal/Green */
+            --color-secondary: #FFC107; /* Gold/Amber Accent */
             --color-background: #E8F5E9; /* Very light green */
             --color-text-dark: #212121;
         }
@@ -35,7 +37,7 @@
         }
 
         body {
-            font-family: 'Noto Sans Tamil', 'Poppins', sans-serif; /* Set Tamil font as primary */
+            font-family: 'Noto Sans Tamil', sans-serif;
             background: linear-gradient(135deg, var(--color-primary) 0%, #004D40 100%);
             min-height: 100vh;
             display: flex;
@@ -50,22 +52,11 @@
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
             max-width: 600px;
             padding: 40px;
-            animation: fadeIn 0.8s ease-in;
             border: 5px solid var(--color-secondary);
-            width: 100%; /* Ensure it uses the max-width */
+            width: 100%;
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
+        /* --- Header & Title --- */
         .header {
             text-align: center;
             margin-bottom: 30px;
@@ -76,14 +67,13 @@
             color: var(--color-primary);
             margin-bottom: 20px;
             font-weight: 700;
-            letter-spacing: 1px;
         }
 
         .app-title {
             font-size: 36px; 
             color: var(--color-text-dark);
             margin: 10px 0;
-            font-weight: 700;
+            font-weight: 800;
         }
         
         .app-intro-box {
@@ -102,6 +92,7 @@
             margin-top: 10px;
         }
 
+        /* --- Features List --- */
         .features {
             list-style: none;
             margin-bottom: 30px;
@@ -123,7 +114,7 @@
 
         .feature-item:hover {
             transform: translateY(-3px);
-            box-shadow: 0 0 15px rgba(0, 121, 107, 0.3); /* Green glow on hover */
+            box-shadow: 0 0 15px rgba(0, 121, 107, 0.3);
         }
 
         .feature-icon {
@@ -139,9 +130,10 @@
             line-height: 1.5;
         }
 
-        /* --- Download Section Styles --- */
+        /* --- Download Section (CTA) FIXES --- */
         .download-section {
-            padding: 15px 10px;
+            /* Compact padding */
+            padding: 15px 10px; 
             background: var(--color-primary);
             border-radius: 15px;
             margin: 30px auto;
@@ -151,8 +143,8 @@
 
         .download-title {
             text-align: center;
-            font-size: 26px; /* Slightly larger title for emphasis */
-            color: var(--color-secondary); /* Gold/Amber color for high contrast CTA */
+            font-size: 26px;
+            color: var(--color-secondary); /* High contrast Gold text */
             font-weight: 700;
             margin-bottom: 15px;
             letter-spacing: 1.5px;
@@ -167,16 +159,16 @@
             flex-wrap: wrap;
         }
 
+        /* Fixed dimensions for consistent button size */
         .download-btn {
             display: inline-block;
             transition: transform 0.3s ease, filter 0.3s ease;
-            /* Fixed dimensions for consistent appearance */
-            width: 160px;
+            width: 160px; 
             height: 48px;
         }
 
         .download-btn img {
-            height: 100%; 
+            height: 100%; /* Ensures button images fill fixed dimensions */
             width: 100%;
             object-fit: contain; 
             border-radius: 5px;
@@ -187,6 +179,7 @@
             filter: brightness(1.2);
         }
         
+        /* --- Footer --- */
         .footer {
             text-align: center;
             font-size: 16px;
@@ -202,14 +195,9 @@
             display: inline-block;
             color: var(--color-secondary);
             font-size: 18px;
-            animation: bounce 2s infinite;
         }
 
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
-        }
-
+        /* --- Media Queries (Responsiveness) --- */
         @media (max-width: 500px) {
             .container {
                 padding: 30px 20px;
@@ -236,14 +224,14 @@
 
         <div class="app-intro-box">
             <div class="app-description">
-                📖 சிறுவர்கள் மற்றும் பெரியவர்கள் **புனித குர்ஆனை மனப்பாடம் செய்ய** உதவும் மற்றும் ஊக்குவிக்கும் **Tracker App.**
+                📖 சிறுவர்கள் மற்றும் பெரியவர்கள் புனித குர்ஆனை மனப்பாடம் செய்ய உதவும் மற்றும் ஊக்குவிக்கும் **Tracker App.**
             </div>
         </div>
 
         <ul class="features">
             <li class="feature-item">
                 <span class="feature-icon">✅</span>
-                <div class="feature-text">ஆயத்துக்கு ஆயத்து **Gamified மனப்பாட மற்றும் மீட்டல்** (Revision) அமைப்பு.</div>
+                <div class="feature-text">ஆயத்துக்கு ஆயத்து **விளையாட்டுத்தனமான (Gamified) மனப்பாடமும் மீள்வாசிப்பு** (Revision) அமைப்பும்.</div>
             </li>
             <li class="feature-item">
                 <span class="feature-icon">📊</span>
@@ -272,7 +260,7 @@
         </div>
 
         <div class="footer">
-            <span class="rocket">💡</span> முழுவதும் AI-assisted coding மூலம் உருவாக்கப்பட்டது!
+            <span class="rocket">💡</span> முழுவதும் **செயற்கை நுண்ணறிவு (AI)** உதவியுடன் உருவாக்கப்பட்டது!
         </div>
     </div>
 </body>
