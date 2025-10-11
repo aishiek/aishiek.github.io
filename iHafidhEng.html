@@ -35,8 +35,8 @@
         }
 
         body {
-            font-family: 'Poppins', sans-serif; /* Updated font */
-            background: linear-gradient(135deg, var(--color-primary) 0%, #004D40 100%); /* Deep Green Gradient */
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--color-primary) 0%, #004D40 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -45,13 +45,13 @@
         }
 
         .container {
-            background: var(--color-background); /* Lighter background */
+            background: var(--color-background);
             border-radius: 20px;
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
             max-width: 600px;
             padding: 40px;
             animation: fadeIn 0.8s ease-in;
-            border: 5px solid var(--color-secondary); /* Gold border for premium feel */
+            border: 5px solid var(--color-secondary);
         }
 
         @keyframes fadeIn {
@@ -71,15 +71,15 @@
         }
 
         .arabic-greeting {
-            font-size: 26px; /* Slightly larger */
-            color: var(--color-primary); 
+            font-size: 26px;
+            color: var(--color-primary);
             margin-bottom: 20px;
-            font-weight: 700; /* Bold */
+            font-weight: 700;
             letter-spacing: 1px;
         }
 
         .app-title {
-            font-size: 38px; /* Larger title */
+            font-size: 38px;
             color: var(--color-text-dark);
             margin: 10px 0;
             font-weight: 700;
@@ -91,9 +91,9 @@
         }
 
         .app-icon img {
-            width: 130px; /* Slightly larger icon */
+            width: 130px;
             height: 130px;
-            border-radius: 25%; /* Slightly rounded square */
+            border-radius: 25%;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
             object-fit: cover;
         }
@@ -101,7 +101,7 @@
         .description {
             font-size: 19px;
             color: var(--color-text-dark);
-            font-weight: 600; /* Semi-bold description */
+            font-weight: 600;
             line-height: 1.6;
             margin-bottom: 30px;
             text-align: center;
@@ -115,11 +115,11 @@
         }
 
         .feature-item {
-            background: white; /* Clean white background for features */
+            background: white;
             padding: 15px;
             margin-bottom: 15px;
             border-radius: 10px;
-            border-left: 5px solid var(--color-secondary); /* Gold accent */
+            border-left: 5px solid var(--color-secondary);
             display: flex;
             align-items: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -127,14 +127,14 @@
         }
 
         .feature-item:hover {
-            transform: translateY(-3px); /* Lift effect */
+            transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
 
         .feature-icon {
-            font-size: 26px; /* Larger icon */
+            font-size: 26px;
             margin-right: 15px;
-            color: var(--color-primary); /* Use primary color for checkmark */
+            color: var(--color-primary);
         }
 
         .feature-text {
@@ -144,20 +144,27 @@
             line-height: 1.5;
         }
 
+        /* --- Marketing Fixes: Compact CTA and Equal Buttons --- */
+        
         .download-section {
-            padding: 20px 0;
-            background: var(--color-primary); /* Primary color background for CTA */
+            /* Reduced vertical padding for compactness */
+            padding: 15px 10px; 
+            background: var(--color-primary);
             border-radius: 15px;
             margin: 30px 0;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            /* Ensured content doesn't stretch the box too much horizontally */
+            width: 90%; 
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .download-title {
             text-align: center;
-            font-size: 26px;
-            color: white; /* White text on dark background */
+            font-size: 24px; /* Slightly reduced size for compactness */
+            color: var(--color-secondary); /* Changed to GOLD for pop/contrast against green */
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 15px; /* Reduced margin */
             letter-spacing: 1.5px;
             text-transform: uppercase;
         }
@@ -169,27 +176,28 @@
             align-items: center;
             flex-wrap: wrap;
         }
-
+        
+        /* Define a consistent size for both download buttons */
         .download-btn {
             display: inline-block;
             transition: transform 0.3s ease, filter 0.3s ease;
-            /* Enforce consistent size for buttons here */
-            width: 180px; 
-            height: 60px;
+            /* Fixed dimensions for consistent appearance */
+            width: 160px; /* Width for buttons */
+            height: 48px; /* Height for buttons */
         }
 
-        /* FIX: Enforce same size and proportional fit for both badges */
         .download-btn img {
-            height: 100%; /* Take 100% of parent height (60px) */
-            width: 100%;  /* Take 100% of parent width (180px) */
-            object-fit: contain; /* Ensure image scales correctly within the box */
+            height: 100%;
+            width: 100%;
+            object-fit: contain; 
             border-radius: 5px;
         }
 
         .download-btn:hover {
-            transform: scale(1.05) translateY(-2px); /* Scale up and slight lift */
+            transform: scale(1.05) translateY(-2px);
             filter: brightness(1.2);
         }
+        /* -------------------------------------------------------- */
 
         .footer {
             text-align: center;
@@ -218,8 +226,8 @@
                 padding: 30px 20px;
             }
             .download-btn {
-                width: 160px; 
-                height: 55px; 
+                width: 150px; /* Slightly smaller on mobile */
+                height: 45px; 
             }
             .app-title {
                 font-size: 30px;
