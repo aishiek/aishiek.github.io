@@ -10,14 +10,24 @@
     <meta property="og:image" content="https://aishiek.github.io/images/preview-image2.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Introducing new iHafidh Mobile App" />
     <meta name="twitter:description" content="Checkout the must have Quran Companion app!." />
     <meta name="twitter:image" content="https://aishiek.github.io/images/preview-image2.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iHafidh App</title>
+    <title>iHafidh App - Quran Memorization Tracker</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <style>
+        /* Define a cleaner, spiritual color palette */
+        :root {
+            --color-primary: #00796B; /* Deep Teal/Green - Trustworthy */
+            --color-secondary: #FFC107; /* Gold/Amber - Accent/Value */
+            --color-background: #E8F5E9; /* Very light green */
+            --color-text-dark: #212121;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -25,8 +35,8 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Poppins', sans-serif; /* Updated font */
+            background: linear-gradient(135deg, var(--color-primary) 0%, #004D40 100%); /* Deep Green Gradient */
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -35,12 +45,13 @@
         }
 
         .container {
-            background: white;
+            background: var(--color-background); /* Lighter background */
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
             max-width: 600px;
             padding: 40px;
             animation: fadeIn 0.8s ease-in;
+            border: 5px solid var(--color-secondary); /* Gold border for premium feel */
         }
 
         @keyframes fadeIn {
@@ -60,37 +71,42 @@
         }
 
         .arabic-greeting {
-            font-size: 24px;
-            color: #667eea;
+            font-size: 26px; /* Slightly larger */
+            color: var(--color-primary); 
             margin-bottom: 20px;
-            font-weight: bold;
+            font-weight: 700; /* Bold */
+            letter-spacing: 1px;
         }
 
         .app-title {
-            font-size: 32px;
-            color: #333;
+            font-size: 38px; /* Larger title */
+            color: var(--color-text-dark);
             margin: 10px 0;
-            font-weight: bold;
+            font-weight: 700;
         }
 
         .app-icon {
             margin-bottom: 20px;
+            position: relative;
         }
 
         .app-icon img {
-            width: 120px;
-            height: 120px;
-            border-radius: 20px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 130px; /* Slightly larger icon */
+            height: 130px;
+            border-radius: 25%; /* Slightly rounded square */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
             object-fit: cover;
         }
 
         .description {
-            font-size: 18px;
-            color: #555;
+            font-size: 19px;
+            color: var(--color-text-dark);
+            font-weight: 600; /* Semi-bold description */
             line-height: 1.6;
             margin-bottom: 30px;
             text-align: center;
+            border-bottom: 2px dashed var(--color-primary);
+            padding-bottom: 20px;
         }
 
         .features {
@@ -99,100 +115,114 @@
         }
 
         .feature-item {
-            background: #f8f9fa;
+            background: white; /* Clean white background for features */
             padding: 15px;
             margin-bottom: 15px;
             border-radius: 10px;
-            border-left: 4px solid #667eea;
+            border-left: 5px solid var(--color-secondary); /* Gold accent */
             display: flex;
             align-items: center;
-            transition: transform 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
         }
 
         .feature-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            transform: translateY(-3px); /* Lift effect */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
 
         .feature-icon {
-            font-size: 24px;
+            font-size: 26px; /* Larger icon */
             margin-right: 15px;
+            color: var(--color-primary); /* Use primary color for checkmark */
         }
 
         .feature-text {
-            color: #333;
-            font-size: 16px;
+            color: var(--color-text-dark);
+            font-size: 17px;
+            font-weight: 500;
             line-height: 1.5;
+        }
+
+        .download-section {
+            padding: 20px 0;
+            background: var(--color-primary); /* Primary color background for CTA */
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .download-title {
+            text-align: center;
+            font-size: 26px;
+            color: white; /* White text on dark background */
+            font-weight: 700;
+            margin-bottom: 25px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        .download-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .download-btn {
+            display: inline-block;
+            transition: transform 0.3s ease, filter 0.3s ease;
+            /* Enforce consistent size for buttons here */
+            width: 180px; 
+            height: 60px;
+        }
+
+        /* FIX: Enforce same size and proportional fit for both badges */
+        .download-btn img {
+            height: 100%; /* Take 100% of parent height (60px) */
+            width: 100%;  /* Take 100% of parent width (180px) */
+            object-fit: contain; /* Ensure image scales correctly within the box */
+            border-radius: 5px;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05) translateY(-2px); /* Scale up and slight lift */
+            filter: brightness(1.2);
         }
 
         .footer {
             text-align: center;
-            font-size: 18px;
-            color: #667eea;
-            font-weight: bold;
-            padding: 20px;
-            background: #f8f9fa;
+            font-size: 16px;
+            color: var(--color-primary);
+            font-weight: 500;
+            padding: 10px;
+            background: white;
             border-radius: 10px;
         }
 
         .rocket {
             display: inline-block;
+            color: var(--color-secondary);
+            font-size: 18px;
             animation: bounce 2s infinite;
         }
 
         @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-
-        .download-section {
-            margin-bottom: 30px;
-        }
-
-        .download-title {
-            text-align: center;
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .download-buttons {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .download-btn {
-            display: inline-block;
-            transition: all 0.3s ease;
-        }
-
-        .download-btn img {
-            height: 54px;
-            width: 180px;
-            object-fit: contain;
-        }
-
-        .download-btn:hover {
-            transform: translateY(-3px);
-            filter: brightness(1.1);
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
         }
 
         @media (max-width: 500px) {
-            .download-buttons {
-                flex-direction: column;
-                align-items: center;
+            .container {
+                padding: 30px 20px;
             }
-            
-            .download-btn img {
-                height: 50px;
-                width: 165px;
+            .download-btn {
+                width: 160px; 
+                height: 55px; 
+            }
+            .app-title {
+                font-size: 30px;
             }
         }
     </style>
@@ -208,30 +238,30 @@
         </div>
 
         <div class="description">
-            📖 A tracker app to help and encourage children and adults to memorize the Holy Quran
+            📖 The Essential Tracker to help and encourage children and adults on their journey to memorize the Holy Quran.
         </div>
 
         <ul class="features">
             <li class="feature-item">
                 <span class="feature-icon">✅</span>
-                <span class="feature-text">Gamified ayah-by-ayah memorization</span>
+                <span class="feature-text">Gamified ayah-by-ayah memorization and review system.</span>
             </li>
             <li class="feature-item">
-                <span class="feature-icon">✅</span>
-                <span class="feature-text">Progress tracking & statistics</span>
+                <span class="feature-icon">📊</span>
+                <span class="feature-text">Comprehensive progress tracking & insightful statistics.</span>
             </li>
             <li class="feature-item">
-                <span class="feature-icon">✅</span>
-                <span class="feature-text">Supports lifelong memorization journey</span>
+                <span class="feature-icon">🔄</span>
+                <span class="feature-text">Built to support the full, lifelong Hifdh (Memorization) journey.</span>
             </li>
             <li class="feature-item">
-                <span class="feature-icon">✅</span>
-                <span class="feature-text">No Login | No Ads | No Data Collection</span>
+                <span class="feature-icon">🔒</span>
+                <span class="feature-text">No Login | No Ads | **Zero** Data Collection. Your privacy is protected.</span>
             </li>
         </ul>
 
         <div class="download-section">
-            <h3 class="download-title">Download Now</h3>
+            <h3 class="download-title">Download iHafidh Today</h3>
             <div class="download-buttons">
                 <a href="https://apps.apple.com/sg/app/ihafidh/id6752505055" class="download-btn" target="_blank">
                     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
@@ -243,7 +273,7 @@
         </div>
 
         <div class="footer">
-            <span class="rocket">🚀</span> Fully created with AI vibe coding!
+            <span class="rocket">💡</span> Crafted with the power of AI-assisted coding.
         </div>
     </div>
 </body>
