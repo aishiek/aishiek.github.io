@@ -1,20 +1,60 @@
-/* CSS Changes for TamilAd.html */
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamilAd</title>
+    <style>
+        /* Other styles remain unchanged */
+        .update-message {
+            font-size: 20px; /* Updated from 26px to 20px */
+        }
+        .update-badge {
+            font-size: 12px; /* Updated from 14px to 12px */
+        }
+        .update-feature {
+            border-top: 6px solid #ffd700; /* Changed from border-left */
+            margin-left: 0; /* Removed margin-left */
+            margin-right: 0; /* Removed margin-right */
+        }
+        .update-feature:hover {
+            transform: translateY(-5px); /* Changed hover effect from translateX to translateY */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> TamilAd <span>📱</span> </h1>
+    </header>
 
-/* 1. Reduce font size for "புதிய பதிப்பு வெளியிடப்பட்டுள்ளது!" */
-/* Line 117 */
-font-size: 20px;
+    <div class="update-message">புதிய பதிப்பு வெளியிடப்பட்டுள்ளது!</div>
+    <div class="update-badge">📱 தயவுசெய்து புதுப்பிக்கவும்</div>
 
-/* 2. Reduce font size for update badge "📱 தயவுசெய்து புதுப்பிக்கவும்" */
-/* Line 129 */
-font-size: 12px;
+    <div class="update-features">
+        <div class="update-feature">
+            <h2>Feature 1</h2>
+            <p>Description of feature 1.</p>
+        </div>
+        <div class="update-feature">
+            <h2>Feature 2</h2>
+            <p>Description of feature 2.</p>
+        </div>
+        <div class="update-feature">
+            <h2>Feature 3</h2>
+            <p>Description of feature 3.</p>
+        </div>
+        <div class="update-feature">
+            <h2>Feature 4</h2>
+            <p>Description of feature 4.</p>
+        </div>
+    </div>
 
-/* 3. Change border for update-feature cards */
-/* Line 138 */
-border-top: 6px solid #ffd700;
-margin-left: 0;
-margin-right: 0;
+    <div class="download-cta">
+        <button>Download Now</button>
+    </div>
 
-/* 4. Make the golden border more prominent and extend to full width of the card */
-
-/* Adjust other relevant styles as necessary */
-
+    <footer>
+        <p>Original content section with app intro and features.</p>
+    </footer>
+</body>
+</html>
