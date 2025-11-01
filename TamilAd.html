@@ -1,31 +1,44 @@
-<style>
-/* Previous styles omitted for brevity */
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    font-size: 20px; /* changed from 26px to 20px */
-}
-
-p {
-    font-size: 12px; /* changed from 14px to 12px */
-}
-
-.some-class {
-    margin-left: 0; /* added */
-    margin-right: 0; /* added */
-    border-top: 6px solid #ffd700; /* changed from border-left to border-top */
-}
-
-.another-class {
-    transform: translateY(-3px); /* changed from translateX(8px) to translateY(-3px) */
-}
-
-/* Additional styles omitted for brevity */
-</style>
-
-<!-- Other HTML content here -->
-
-<!-- The remaining content of the TamilAd.html file goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TamilAd</title>
+    <style>
+        /* Additional CSS rules */
+        body {
+            font-size: 20px; /* Changed from 26px to 20px */
+        }
+        h2 {
+            font-size: 12px; /* Changed from 14px to 12px */
+        }
+        .bordered {
+            border-top: 6px solid #ffd700; /* Changed from border-left */
+            margin-left: -25px; /* New rule */
+            margin-right: -25px; /* New rule */
+            transform: translateY(-3px); /* Changed from translateX(8px) */
+        }
+        @media (max-width: 600px) {
+            .update-header h2 {
+                font-size: 18px; /* New media query rule */
+            }
+            .update-badge {
+                font-size: 11px; /* New media query rule */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tamil Advertisement</h1>
+    <div class="bordered">
+        <h2>Details</h2>
+        <p>This is a sample advertisement</p>
+    </div>
+    <div class="update-header">
+        <h2>Updates</h2>
+    </div>
+    <div class="update-badge">
+        <span>New</span>
+    </div>
+</body>
+</html>
