@@ -17,209 +17,256 @@
     <meta name="twitter:image" content="https://aishiek.github.io/images/preview-image.png?v=2" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iHafidh App - மனப்பாடம் செய்ய உதவும் செயலி</title>
+    <title>iHafidh புதிய பொலிவுடன்</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
-        /* --- Color Palette & Global Styles --- */
-        :root {
-            --color-primary: #00796B; /* Deep Teal/Green */
-            --color-secondary: #FFC107; /* Gold/Amber Accent */
-            --color-background: #E8F5E9; /* Very light green */
-            --color-text-dark: #212121;
-        }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         body {
-            font-family: 'Noto Sans Tamil', sans-serif;
-            background: linear-gradient(135deg, var(--color-primary) 0%, #004D40 100%);
+            font-family: 'Noto Sans Tamil', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            padding: 15px;
             display: flex;
-            justify-content: center;
             align-items: center;
-            padding: 20px;
-        }
-
-        .container {
-            background: var(--color-background);
-            border-radius: 20px;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
-            max-width: 600px;
-            padding: 40px;
-            border: 5px solid var(--color-secondary);
-            width: 100%;
-        }
-
-        /* --- Header & Title --- */
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .arabic-greeting {
-            font-size: 26px;
-            color: var(--color-primary);
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .app-title {
-            font-size: 36px; 
-            color: var(--color-text-dark);
-            margin: 10px 0;
-            font-weight: 800;
+            justify-content: center;
         }
         
-        .app-intro-box {
-            background: var(--color-primary);
+        .container {
+            max-width: 600px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
             padding: 20px;
-            border-radius: 15px;
-            margin: 25px 0;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
         }
         
-        .app-description {
-            font-size: 19px;
-            font-weight: 500;
-            line-height: 1.6;
-            margin-top: 10px;
+        .header h1 {
+            font-size: 22px;
+            margin-bottom: 8px;
+            font-weight: 700;
         }
-
-        /* --- Features List --- */
-        .features {
-            list-style: none;
-            margin-bottom: 30px;
-            padding: 0;
-            text-align: left;
-        }
-
-        .app-icon img {
-            width: 130px;
-            height: 130px;
-            border-radius: 25%;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            object-fit: cover;
-        }
-
-
-        .feature-item {
-            background: white; 
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 10px;
-            border-left: 5px solid var(--color-secondary);
+        
+        .greeting {
+            font-size: 20px;
+            margin-bottom: 10px;
             display: flex;
             align-items: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
+            justify-content: center;
+            gap: 10px;
         }
-
-        .feature-item:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 0 15px rgba(0, 121, 107, 0.3);
+        
+        .greeting-logo {
+            width: 35px;
+            height: auto;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
         }
-
-        .feature-icon {
-            font-size: 26px;
-            margin-right: 15px;
-            color: var(--color-primary);
+        
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
         }
-
-        .feature-text {
-            color: var(--color-text-dark);
-            font-size: 17px;
-            font-weight: 500;
-            line-height: 1.5;
+        
+        .update-badge {
+            display: inline-block;
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 8px;
+            font-size: 14px;
         }
-
-        /* --- Download Section (CTA) FIXES --- */
-        .download-section {
-            /* Compact padding */
-            padding: 15px 10px; 
-            background: var(--color-primary);
-            border-radius: 15px;
-            margin: 30px auto;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            width: 90%;
+        
+        .content {
+            padding: 25px 20px;
         }
-
-        .download-title {
+        
+        .feature {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateX(5px);
+        }
+        
+        .feature-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
             text-align: center;
-            font-size: 26px;
-            color: var(--color-secondary); /* High contrast Gold text */
-            font-weight: 700;
-            margin-bottom: 15px;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 12px;
+            font-size: 16px;
         }
-
+        
+        .feature-title {
+            color: #1e3c72;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .feature-desc {
+            color: #555;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+        
+        .arabic-text {
+            color: #2a5298;
+            font-size: 14px;
+            margin: 5px 0;
+            direction: rtl;
+        }
+        
+        .highlight {
+            background: #fff4e6;
+            padding: 2px 8px;
+            border-radius: 5px;
+            color: #e67e22;
+            font-weight: 600;
+        }
+        
+        /* Prominent Download CTA */
+        .download-cta {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 25px 0 15px 0;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(238, 90, 36, 0.4);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+        
+        .download-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(238, 90, 36, 0.6);
+        }
+        
+        .download-cta-text {
+            font-size: 24px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        
+        .download-cta-arrow {
+            font-size: 28px;
+            display: block;
+            animation: bounce 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 8px 20px rgba(238, 90, 36, 0.4);
+            }
+            50% {
+                box-shadow: 0 8px 30px rgba(238, 90, 36, 0.7);
+            }
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .download-section {
+            padding: 20px 15px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        
         .download-buttons {
             display: flex;
-            gap: 20px;
+            gap: 15px;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            margin-top: 15px;
         }
-
-        /* Fixed dimensions for consistent button size */
+        
         .download-btn {
             display: inline-block;
             transition: transform 0.3s ease, filter 0.3s ease;
-            width: 160px; 
+            width: 160px;
             height: 48px;
         }
-
+        
         .download-btn img {
-            height: 100%; /* Ensures button images fill fixed dimensions */
+            height: 100%;
             width: 100%;
-            object-fit: contain; 
+            object-fit: contain;
             border-radius: 5px;
         }
-
+        
         .download-btn:hover {
-            transform: scale(1.05) translateY(-2px);
+            transform: scale(1.08) translateY(-2px);
             filter: brightness(1.2);
         }
         
-        /* --- Footer --- */
         .footer {
+            background: #f8f9fa;
+            padding: 18px;
             text-align: center;
-            font-size: 16px;
-            color: var(--color-primary);
-            font-weight: 500;
-            padding: 10px;
-            background: white;
-            border-radius: 10px;
-            margin-top: 20px;
+            color: #666;
+            font-style: italic;
+            font-size: 14px;
         }
-
-        .rocket {
-            display: inline-block;
-            color: var(--color-secondary);
-            font-size: 18px;
+        
+        .footer strong {
+            color: #2a5298;
         }
-
-        /* --- Media Queries (Responsiveness) --- */
+        
+        .icon {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+        
         @media (max-width: 500px) {
-            .container {
-                padding: 30px 20px;
+            .header h1 {
+                font-size: 18px;
+            }
+            .greeting {
+                font-size: 16px;
+            }
+            .download-cta-text {
+                font-size: 20px;
             }
             .download-btn {
                 width: 150px;
-                height: 45px; 
-            }
-            .app-title {
-                font-size: 28px;
-            }
-            .download-title {
-                font-size: 22px;
+                height: 45px;
             }
         }
     </style>
@@ -227,52 +274,106 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="arabic-greeting">✨ السلام عليكم ورحمه الله وبركاته ✨</div>
-            <div class="app-icon">
-                <img src="https://raw.githubusercontent.com/aishiek/aishiek.github.io/main/images/ihafidhFinal.png" alt="iHafidh App Icon" onerror="this.style.display='none'">
+            <div class="greeting">
+                <svg class="logo-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="bookGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#1a3d0a;stop-opacity:1" />
+                        </linearGradient>
+                        <linearGradient id="pageGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#f5f5dc;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#f5f5dc;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M 10 8 L 54 8 L 54 56 L 10 56 Z" fill="url(#bookGradient)" stroke="#d4af37" stroke-width="1.5"/>
+                    <path d="M 32 8 L 32 56" stroke="#d4af37" stroke-width="1"/>
+                    <path d="M 14 14 L 30 14 L 30 50 L 14 50 Z" fill="url(#pageGradient)" opacity="0.9"/>
+                    <path d="M 34 14 L 50 14 L 50 50 L 34 50 Z" fill="url(#pageGradient)" opacity="0.9"/>
+                    <line x1="16" y1="20" x2="28" y2="20" stroke="#2d5016" stroke-width="0.5" opacity="0.3"/>
+                    <line x1="16" y1="24" x2="28" y2="24" stroke="#2d5016" stroke-width="0.5" opacity="0.3"/>
+                    <line x1="16" y1="28" x2="28" y2="28" stroke="#2d5016" stroke-width="0.5" opacity="0.3"/>
+                    <line x1="36" y1="20" x2="48" y2="20" stroke="#2d5016" stroke-width="0.5" opacity="0.3"/>
+                    <line x1="36" y1="24" x2="48" y2="24" stroke="#2d5016" stroke-width="0.5" opacity="0.3"/>
+                    <line x1="36" y1="28" x2="48" y2="28" stroke="#2d5016" stroke-width="0.5" opacity="0.3"/>
+                    <circle cx="32" cy="18" r="3" fill="#d4af37" opacity="0.8"/>
+                </svg>
+                <span>அஸ்ஸலாமு அலைக்கும் வரஹ்மதுல்லாஹ்</span>
             </div>
-            <div class="app-title">iHafidh செயலி அறிமுகம்</div>
+            <h1>iHafidh புதிய பொலிவுடன்</h1>
+            <div class="update-badge">📱 தயவுசெய்து புதுப்பிக்கவும்</div>
         </div>
-
-        <div class="app-intro-box">
-            <div class="app-description">
-                📖 சிறுவர்கள் மற்றும் பெரியவர்கள் புனித குர்ஆனை மனப்பாடம் செய்ய உதவும் மற்றும் ஊக்குவிக்கும் <Bold>Tracker App</Bold>
+        
+        <div class="content">
+            <div class="feature">
+                <div class="feature-title">
+                    <span class="feature-number">1</span>
+                    <span class="icon">📖</span>எளிய தஃப்ஸீர்
+                </div>
+                <div class="arabic-text">المختصر في تفسير القرآن الكريم</div>
+                <div class="feature-desc">
+                    <strong>அல்-முக்தஸர் ஃபீ தஃப்ஸீர் அல்-குர்ஆன் அல்-கரீம்</strong> இப்போது <span class="highlight">தமிழ் & மலாய்</span> மொழிகளில் உள்ளது. முழு குர்ஆன் தஃப்ஸீரை விரைவாக முடிக்க விரும்பினால் இது சிறந்த வழி.
+                    <br><br>
+                    <strong>தஃப்ஸீர் இப்னு கதீர்</strong> (சுருக்கப்பட்ட பதிப்பு) ஒவ்வொரு வசனத்திலும் ஆங்கிலத்தில் இன்னும் உள்ளது - திறந்த புத்தக ஐகானை கிளிக் செய்யவும் 📚
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-title">
+                    <span class="feature-number">2</span>
+                    <span class="icon">📜</span>முஸ்ஹஃப் தளவமைப்பு
+                </div>
+                <div class="feature-desc">
+                    புதிய முஸ்ஹஃப் தளவமைப்பை முயற்சிக்கவும்! இது <span class="highlight">15 வரிகள் ஹிஃப்த் குர்ஆன்</span> அமைப்பு.
+                    <br><br>
+                    டேப்லெட்களில் சிறப்பாக காட்சியளிக்கும் 📱
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-title">
+                    <span class="feature-number">3</span>
+                    <span class="icon">✨</span>Font விருப்பங்கள் & பொதுவான மேம்பாடுகள்
+                </div>
+                <div class="feature-desc">
+                    புதிய Font விருப்பத்தேர்வுகள் மற்றும் பல்வேறு செயல்திறன் மேம்பாடுகள் சேர்க்கப்பட்டுள்ளன.
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-title">
+                    <span class="feature-number">4</span>
+                    <span class="icon">🎙️</span>ஒப்புவித்தல் & கண்காணிப்பு
+                </div>
+                <div class="feature-desc">
+                    இந்த செயலி <span class="highlight">புனித அல்-குர்ஆன் பிரதி மூலமும்</span> மனப்பாடம் செய்து iHafidh App ல் பதிவு செய்யும் வடிவத்தில் அமைக்கப்பட்டுள்ளது 📊
+                </div>
+            </div>
+            
+            <!-- Prominent Download CTA -->
+            <div class="download-cta">
+                <div class="download-cta-text">
+                    👇 பதிவிறக்க கிளிக் செய்யவும் 👇
+                </div>
+                <span class="download-cta-arrow">⬇️</span>
+            </div>
+            
+            <!-- Download Buttons -->
+            <div class="download-section">
+                <div class="download-buttons">
+                    <a href="https://apps.apple.com/sg/app/ihafidh/id6752505055" class="download-btn" target="_blank">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store-இல் பதிவிறக்கம் செய்க">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.ihafidh" class="download-btn" target="_blank">
+                        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play-இல் பெறுக">
+                    </a>
+                </div>
             </div>
         </div>
-
-        <ul class="features">
-            <li class="feature-item">
-                <span class="feature-icon">✅</span>
-                <div class="feature-text">ஆயத்துக்கு ஆயத்து  Gamified மனப்பாடமும் மீள்வாசிப்பு (Revision) அமைப்பும்.</div>
-            </li>
-            <li class="feature-item">
-                <span class="feature-icon">📊</span>
-                <div class="feature-text">விரிவான <Bold>முன்னேற்றக் கண்காணிப்பு</Bold> & புள்ளிவிவரங்கள்</div>
-            </li>
-            <li class="feature-item">
-                <span class="feature-icon">🔄</span>
-                <div class="feature-text">உங்கள் வாழ்நாள் ஹிஃப்ழ் பயணத்திற்குத் துணையாக இருக்கும் வகையில் உருவாக்கப்பட்டது.</div>
-            </li>
-            <li class="feature-item">
-                <span class="feature-icon">🔒</span>
-                <div class="feature-text">Login இல்லை | Ads இல்லை | Data சேகரிப்பு இல்லை.</div>
-            </li>
-        </ul>
-
-        <div class="download-section">
-            <h3 class="download-title">இப்போதே பதிவிறக்குங்கள் !!</h3>
-            <div class="download-buttons">
-                <a href="https://apps.apple.com/sg/app/ihafidh/id6752505055" class="download-btn" target="_blank">
-                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store-இல் பதிவிறக்கம் செய்க">
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.ihafidh" class="download-btn" target="_blank">
-                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play-இல் பெறுக">
-                </a>
-            </div>
-        </div>
-
+        
         <div class="footer">
-            <span class="rocket">🚀</span> முழுவதும் Vibe Coding (AI) உதவியுடன் உருவாக்கப்பட்டது!
+            <strong>ஜஸாகல்லாஹு கைரன்</strong> 🤲
         </div>
     </div>
 </body>
