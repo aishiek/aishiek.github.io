@@ -1,11 +1,12 @@
 {
-"min_supported": "2.0.1",
-"latest": "2.0.1",
-"force": false,
+"min_supported": "2.0.2",
+"latest": "2.0.2",
+"force": true,
 "release_notes": [
-"Bookmarks Fixes in Juz Mode",
-"UX Polishing",
-"Notification Fixes"
+"Page Mode, choose 3 to 20 verses",
+"Repeat Audio in page mode & verse sycnronization with audio",
+"Swipe gesture in Mushaf and in Page Mode",
+"Added Play Page Audio in Mushaf"
 ],
 "android_package_id_override": "com.ihafidh",
 "ios_app_id_override": "1234567890",
