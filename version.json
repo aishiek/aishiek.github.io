@@ -1,12 +1,13 @@
 {
 "min_supported": "2.0.1",
-"latest": "2.0.1",
-"force": false,
+"latest": "2.0.2",
+"force": true,
 "release_notes": [
-"Page Mode, choose 3 to 20 verses",
+"Ayah of the day now available as Notification",
+"New Page Mode in Surah & Juz, choose from 3 to 20 verses",
 "Repeat Audio in page mode & verse sycnronization with audio",
 "Swipe gesture in Mushaf and in Page Mode",
-"Added Play Page Audio in Mushaf"
+"Added Play Page Audio in Mushafs"
 ],
 "android_package_id_override": "com.ihafidh",
 "ios_app_id_override": "6752505055",
