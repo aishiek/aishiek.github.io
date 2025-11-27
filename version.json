@@ -1,7 +1,7 @@
 {
 "min_supported": "2.0.1",
 "latest": "2.0.1",
-"force": true,
+"force": false,
 "release_notes": [
 "Page Mode, choose 3 to 20 verses",
 "Repeat Audio in page mode & verse sycnronization with audio",
