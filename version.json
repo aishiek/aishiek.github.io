@@ -1,7 +1,7 @@
 {
 "min_supported": "2.0.1",
 "latest": "2.0.2",
-"force": false,
+"force": true,
 "release_notes": [
 "Ayah of the day now available as Notification",
 "New Page Mode in Surah & Juz, choose from 3 to 20 verses",
