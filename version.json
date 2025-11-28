@@ -1,6 +1,6 @@
 {
-"min_supported": "2.0.1",
-"latest": "2.0.2",
+"min_supported": "2.0.0",
+"latest": "2.0.1",
 "force": true,
 "release_notes": [
 "Ayah of the day now available as Notification",
