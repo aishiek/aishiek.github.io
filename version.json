@@ -1,1 +1,16 @@
-{\n  "min_supported": "2.0.1",\n  "latest": "2.0.2",\n  "force": true,\n  "release_notes": [\n    "Ayah of the day now available as Notification in settings.",\n    "New Page Mode in Surah & Juz, Look for yellow page icon in the header!",\n    "Repeat Audio in page mode & verse sycnronization with audio",\n    "Swipe gesture in Mushaf and in Page Mode",\n    "Added Play Page Audio in Mushafs",\n    "<strong>Known issue: This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience.</strong>"\n  ],\n  "android_package_id_override": "com.ihafidh",\n  "ios_app_id_override": "6752505055",\n  "timestamp": "2025-11-27T15:42:00Z"\n}
+{
+  "min_supported": "2.0.1",
+  "latest": "2.0.2",
+  "force": true,
+  "release_notes": [
+    "Ayah of the day now available as Notification in settings.",
+    "New Page Mode in Surah & Juz, Look for yellow page icon in the header!",
+    "Repeat Audio in page mode & verse sycnronization with audio",
+    "Swipe gesture in Mushaf and in Page Mode",
+    "Added Play Page Audio in Mushafs",
+    "⚠️ This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience."
+  ],
+  "android_package_id_override": "com.ihafidh",
+  "ios_app_id_override": "6752505055",
+  "timestamp": "2025-11-27T15:42:00Z"
+}
