@@ -10,7 +10,7 @@
     "Added Play Page Audio in Mushafs"
   ],
   "note": {
-    "html": "<strong>Known issue: This dialog may reappear on every app start. Please tap Close or Later. Fix expected by Monday, 1 Dec. We apologize for the inconvenience.</strong>",
+    "html": "<strong>Known issue: This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience.</strong>",
     "plain": "Known issue: This dialog may reappear on every app start. Please tap Close or Later. Fix expected by Monday, 1 Dec. We apologize for the inconvenience."
   },
   "android_package_id_override": "com.ihafidh",
