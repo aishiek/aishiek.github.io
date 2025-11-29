@@ -8,6 +8,8 @@
     "Repeat Audio in page mode & verse sycnronization with audio",
     "Swipe gesture in Mushaf and in Page Mode",
     "Added Play Page Audio in Mushafs"
+
+    "html": "<strong>Known issue: This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience.</strong>",
   ],
   "note": {
     "html": "<strong>Known issue: This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience.</strong>",
