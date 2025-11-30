@@ -1,7 +1,7 @@
 {
   "min_supported": "2.0.1",
   "latest": "2.0.2",
-  "force": true,
+  "force": false,
   "release_notes": [
     "Ayah of the day now available as Notification in settings.",
     "New Page Mode in Surah & Juz, Look for yellow page icon in the header!",
