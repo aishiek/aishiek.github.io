@@ -5,12 +5,29 @@
   "release_notes": [
     "Ayah of the day now available as Notification in settings.",
     "New Page Mode in Surah & Juz, Look for yellow page icon in the header!",
-    "Repeat Audio in page mode & verse sycnronization with audio",
+    "Repeat Audio in page mode & verse synchronization with audio",
     "Swipe gesture in Mushaf and in Page Mode",
     "Added Play Page Audio in Mushafs",
     "⚠️ This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience."
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
-  "timestamp": "2025-11-27T15:42:00Z"
+  "timestamp": "2025-12-04T12:00:00Z",
+  "announcement": {
+    "id": "year-end-2025",
+    "active": true,
+    "priority": "high",
+    "type": "seasonal",
+    "title": "Season’s Greetings — Year End 2025",
+    "contentType": "html",
+    "content": "<div style='text-align:center; font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\";'><img src='https://aishiek.github.io/images/year-end-2025-banner.jpg' style='width:100%; max-width:720px; border-radius:12px; margin-bottom:18px;' alt='Seasonal Banner' /><h2 style='color:#22c55e; margin-bottom:10px; font-weight:700;'>Warm Wishes for the New Year</h2><p style='color:#cbd5e1; font-size:15px; line-height:1.6; margin:0 auto; max-width:640px;'>As the year closes, we pray for peace, progress, and steady growth in our relationship with the Quran. iHafidh now includes UI improvements to help you stay consistent with your reading & memorization.</p><ul style='text-align:left; color:#cbd5e1; margin:18px auto; max-width:640px; padding-left:18px;'><li>Try the improved Page Mode for structured reading</li><li>See inline Sajdah markers and themed details for prostration ayahs</li><li>New HTML-driven announcement system for seasonal events and feature updates</li></ul></div>",
+    "imageUrl": "https://aishiek.github.io/images/year-end-2025-banner.jpg",
+    "dismissible": true,
+    "showOnce": true,
+    "expiresAt": "2026-01-15T23:59:59Z",
+    "actionButton": {
+      "text": "Start Reading",
+      "route": "/(tabs)/read"
+    }
+  }
 }
