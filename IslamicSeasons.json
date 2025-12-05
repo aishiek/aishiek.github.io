@@ -1,0 +1,13 @@
+// IslamicSeasons.json (You must create this file on your GitHub Pages)
+{
+  "activeOccasionId": "Ramadan", // Change this to 'Hajj', 'EidUlFitr', 'MiladUnNabi', etc., to toggle the icon
+  "occasions": [
+    {"id": "Ramadan", "color": "#FFC107", "actionData": {"title": "Ramadan Mubarak", "message": "May your fasts be accepted."}},
+    {"id": "Hajj", "color": "#4CAF50", "actionData": {"title": "Hajj Season", "message": "Remember the pilgrims in your duas."}},
+    {"id": "EidUlFitr", "color": "#79D7C5", "actionData": {"title": "Eid ul-Fitr Mubarak", "message": "Time for celebration."}},
+    {"id": "EidUlAdha", "color": "#4CAF50", "actionData": {"title": "Eid ul-Adha Mubarak", "message": "Remember the sacrifice."}},
+    {"id": "Arafah", "color": "#1E90FF", "actionData": {"title": "Day of Arafah", "message": "A day for great mercy and forgiveness."}},
+    {"id": "Muharram", "color": "#5A5A5A", "actionData": {"title": "1st Muharram", "message": "Start of the Hijri New Year."}},
+    {"id": "MiladUnNabi", "color": "#B03060", "actionData": {"title": "Milad-un-Nabi", "message": "Blessings on the birth of the Prophet (PBUH)."}}
+  ]
+}
