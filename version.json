@@ -1,6 +1,6 @@
 {
   "min_supported": "2.0.1",
-  "latest": "2.0.3",
+  "latest": "2.0.2",
   "force": false,
   "release_notes": [
     "Ayah of the day now available as Notification in settings.",
