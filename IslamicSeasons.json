@@ -1,6 +1,6 @@
 {
-  "isFeatureEnabled": false,
-  "activeOccasionId": "EidUlFitr",
+  "isFeatureEnabled": true,
+  "activeOccasionId": "Ramadan",
   "occasions": [
     {
       "id": "Ramadan",
