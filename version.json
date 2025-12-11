@@ -1,14 +1,14 @@
 {
-  "min_supported": "2.0.1",
-  "latest": "2.0.2",
-  "force": false,
+  "min_supported": "2.0.2",
+  "latest": "2.0.3",
+  "force": true,
   "release_notes": [
-    "Ayah of the day now available as Notification in settings.",
-    "New Page Mode in Surah & Juz, Look for yellow page icon in the header!",
-    "Repeat Audio in page mode & verse synchronization with audio",
-    "Swipe gesture in Mushaf and in Page Mode",
-    "Added Play Page Audio in Mushafs",
-    "⚠️ This dialog may reappear on every app start. Please tap Close or Later button. Fix expected by Monday, 1 Dec. We apologize for the inconvenience."
+    "Fixed Verse count and Page count synchronization for Reision",
+    "Minor bug fixes and Improvements",
+    "Verse blue audio play button disabled after first play is fixed now",
+    "Page Mode Audio play works in repeat mode, eg: 5 Verse 2x times plays in loop",
+    "Other minor bug fixes and Improvements"
+
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
