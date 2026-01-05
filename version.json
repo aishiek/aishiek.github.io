@@ -1,14 +1,12 @@
 {
-  "min_supported": "2.0.2",
-  "latest": "2.0.3",
-  "force": false,
+  "min_supported": "2.0.3",
+  "latest": "2.0.5",
+  "force": true,
   "release_notes": [
-    "Fixed Verse count and Page count synchronization for Reision",
-    "Minor bug fixes and Improvements",
-    "Verse blue audio play button disabled after first play is fixed now",
-    "Page Mode Audio play works in repeat mode, eg: 5 Verse 2x times plays in loop",
-    "Other minor bug fixes and Improvements"
-
+    "Hifdh Planner Notes are now available as icons in the planner with edit options",
+    "New Highest In Day Card is available in stats to capture highest verses revised and memorized",
+    "Notification Optimizations & other stability Improvements",
+    "📣 Your iHafidh story matters to us 💙 Share your experience on App Store or Play Store",
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
