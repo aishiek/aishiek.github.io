@@ -3,12 +3,10 @@
   "latest": "2.0.5",
   "force": true,
   "release_notes": [
-    " -------------------------------------------------------------",
     "You can now mark the entire Juz revised in a click using Revise Juz button",
     "Hifdh Planner Notes are now available as icons in the planner with edit options",
     "New Highest In Day Card is available in stats to capture highest verses revised and memorized",
     "Notification Optimizations & other stability Improvements",
-    " -------------------------------------------------------------",
     "📣 Your iHafidh story matters to us, 💙 Share your experience on App Store or Play Store"
   ],
   "android_package_id_override": "com.ihafidh",
