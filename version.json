@@ -1,6 +1,6 @@
 {
   "min_supported": "2.0.3",
-  "latest": "2.0.5",
+  "latest": "2.0.4",
   "force": true,
   "release_notes": [
     "You can now mark the entire Juz revised in a click using Revise Juz button",
