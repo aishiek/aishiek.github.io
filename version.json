@@ -1,9 +1,15 @@
 {
+ Mushaf Page Audio - Repetition controls by page and by verses
+  Push Notification Fixes
+Streak crash bug fix 
+Navigation : Now you can click back will retain the last Surah / Juz List 
+Audio Preview : Preview chosen Reciter by clicking Preview Audio Button in Settings
+Other Minor UX and Stability Fixes
   "min_supported": "2.0.3",
   "latest": "2.0.4",
   "force": false,
   "release_notes": [
-    "You can now mark the entire Juz revised in a click using Revise Juz button",
+    "Tajweed font with color codes",
     "Hifdh Planner Notes are now available as icons in the planner with edit options",
     "New Highest In Day Card is available in stats to capture highest verses revised and memorized",
     "Notification Optimizations & other stability Improvements",
