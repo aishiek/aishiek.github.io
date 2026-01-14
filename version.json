@@ -1,7 +1,7 @@
 {
-  "min_supported": "2.0.4",
+  "min_supported": "2.0.5",
   "latest": "2.0.6",
-  "force": true,
+  "force": false,
   "release_notes": [
     "Tajweed font with color codes",
     "Mushaf Page Audio - Repetition controls by page and by verses", 
