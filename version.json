@@ -1,13 +1,9 @@
 {
   "min_supported": "2.0.5",
-  "latest": "2.0.6",
+  "latest": "2.0.7",
   "force": false,
   "release_notes": [
-    "Tajweed font with color codes",
-    "Mushaf Page Audio - Repetition controls by page and by verses", 
-    "Audio Preview : Preview chosen Reciter by clicking Preview Audio Button in Settings",
-    "Navigation : Now you can click back will retain the last Surah / Juz List ",
-    "Push Notification Fixes",
+    "Tajweed Fixes, Improved reading Layout & minor stability fixes",
     "📣 Your iHafidh story matters to us, 💙 Help us reach more hearts 💙, Spread the word by Reviewing the App in your app store! "
   ],
   "android_package_id_override": "com.ihafidh",
