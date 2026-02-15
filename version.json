@@ -1,10 +1,12 @@
 {
-  "min_supported": "2.0.5",
-  "latest": "2.0.7",
+  "min_supported": "2.0.6",
+  "latest": "2.0.8",
   "force": true,
   "release_notes": [
-    "Tajweed Fixes, Improved reading Layout & minor stability fixes",
-    "📣 Your iHafidh story matters to us, 💙 Help us reach more hearts 💙, Spread the word by Reviewing the App in your app store! "
+    "Introducing Quranic Dua's Tracker, Available under burger Menu on Top Right",
+    "Polished Ayah of the day, impactful longer verses curated selection",
+    "Monthly hifdh planner has copy option to copy from the same week planner"
+    "💙 Alhamdulillah! Share the blessing of Al-Qur'an memorization, Leave a review and earn ongoing rewards (Sadaqah Jaariyah) as others benefit 🌙 "
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
