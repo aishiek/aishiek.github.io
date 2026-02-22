@@ -1,31 +1,30 @@
 {
   "min_supported": "2.0.5",
   "latest": "2.0.8",
-  "force": true,
+  "force": false,
   "release_notes": [
     "Introducing Quranic Dua's Tracker, Available under burger Menu on Top Right",
     "Polished Ayah of the day, impactful longer verses curated selection",
-    "Monthly hifdh planner has copy option to copy from the same week planner"
-    "💙 Alhamdulillah! Share the blessing of Al-Qur'an memorization, Leave a review and earn ongoing rewards (Sadaqah Jaariyah) as others benefit 🌙 "
+    "Monthly hifdh planner has copy option to copy from the same week planner",
+    "💙 Alhamdulillah! Share the blessing of Al-Qur'an memorization, Leave a review and earn ongoing rewards (Sadaqah Jaariyah) as others benefit 🌙"
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
   "timestamp": "2025-12-04T12:00:00Z",
   "announcement": {
     "id": "year-end-2025",
-    "active": false,
+    "active": true,
     "priority": "high",
-    "type": "seasonal",
-    "title": "Most forgetten month for Ibadah, Month of Shahaban!",
+    "type": "community",
+    "title": "Help More Muslims Find iHafidh 🌙",
     "contentType": "html",
-    "content": "<div style='text-align:center; font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\";'><img src='https://aishiek.github.io/images/year-end-2025-banner.jpg' style='width:100%; max-width:720px; border-radius:12px; margin-bottom:18px;' alt='Seasonal Banner' /><h2 style='color:#22c55e; margin-bottom:10px; font-weight:700;'>Warm Wishes for the New Year</h2><p style='color:#cbd5e1; font-size:15px; line-height:1.6; margin:0 auto; max-width:640px;'>As the year closes, we pray for peace, progress, and steady growth in our relationship with the Quran. iHafidh now includes UI improvements to help you stay consistent with your reading & memorization.</p><ul style='text-align:left; color:#cbd5e1; margin:18px auto; max-width:640px; padding-left:18px;'><li>Try the improved Page Mode for structured reading</li><li>See inline Sajdah markers and themed details for prostration ayahs</li><li>New HTML-driven announcement system for seasonal events and feature updates</li></ul></div>",
-    "imageUrl": "https://aishiek.github.io/images/year-end-2025-banner.jpg",
+    "content": "<div style='text-align:center; font-family: system-ui;'><h2 style='color:#22c55e;'>Jazakallahu Khayran for using iHafidh</h2><p style='color:#cbd5e1; font-size:15px; line-height:1.6;'>Alhamdulillah — iHafidh has been downloaded by hundreds of brothers and sisters on their Quran journey.<br/><br/>If this app has helped you, leaving a quick App Store review is <strong style='color:#22c55e;'>Sadaqah Jariyah</strong> — every Muslim who discovers and benefits from iHafidh through your review earns you ongoing reward. 🤲</p></div>",
     "dismissible": true,
     "showOnce": true,
-    "expiresAt": "2026-01-15T23:59:59Z",
+    "expiresAt": "2026-04-01T23:59:59Z",
     "actionButton": {
-      "text": "Start Reading",
-      "route": "/(tabs)/read"
+      "text": "Leave a Review ⭐",
+      "route": "https://aishiek.github.io/review.html"
     }
   }
 }
