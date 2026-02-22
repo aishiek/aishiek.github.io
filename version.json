@@ -18,8 +18,7 @@
     "type": "community",
     "title": "Help More Muslims Find iHafidh 🌙",
     "contentType": "text",
-    "content": "<div style=\"text-align:center; font-family: system-ui;\"><h2 style=\"color:#22c55e;\">Jazakallahu Khayran for using iHafidh</h2><p style=\"color:#cbd5e1; font-size:15px; line-height:1.6;\">Alhamdulillah — if this app has helped you, leaving a quick App Store review is <strong style=\"color:#22c55e;\">Sadaqah Jariyah</strong> — every Muslim who benefits earns you ongoing reward. 🤲</p></div>",
-    "dismissible": true,
+    "content": "Alhamdulillah — if this app has helped you, leaving a quick App Store review is Sadaqah Jariyah. Every Muslim who discovers iHafidh through your review earns you ongoing reward. 🤲","dismissible": true,
     "showOnce": true,
     "expiresAt": "2026-04-01T23:59:59Z",
     "actionButton": {
