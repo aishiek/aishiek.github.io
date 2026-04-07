@@ -1,12 +1,12 @@
 {
-  "min_supported": "2.0.5",
-  "latest": "2.0.8",
+  "min_supported": "2.0.7",
+  "latest": "2.0.9",
   "force": false,
   "release_notes": [
-    "Introducing Quranic Dua's Tracker, Available under burger Menu on Top Right",
-    "Polished Ayah of the day, impactful longer verses curated selection",
-    "Monthly hifdh planner has copy option to copy from the same week planner",
-    "💙 Alhamdulillah! Share the blessing of Al-Qur'an memorization, Leave a review and earn ongoing rewards (Sadaqah Jaariyah) as others benefit 🌙"
+    "Introducing Landscape beautiful Golden Qur'an when phone switched in Recite tab landscape mode",
+    "Introducing Word by Word translation in English,Tamil, Malay & Urdu, In Landscape mode click square box icon in header ",
+    "All features of the app are avilable in the header as Feature Guide, click the question mark icon on header",
+    "💙 Share the iHafidh App to your family & friends, earn Hasanath & Sadaqah Jaariyah  when other benefit by reading & memorizing from iHafidh, JazakAllahu Khairan 🌙"
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
