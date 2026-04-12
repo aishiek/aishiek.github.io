@@ -1,12 +1,16 @@
 {
-  "min_supported": "2.0.7",
-  "latest": "2.0.9",
+  "min_supported": "2.0.9",
+  "latest": "2.1.0",
   "force": false,
   "release_notes": [
-    "Introducing Landscape beautiful Golden Qur'an when phone switched in Recite tab landscape mode",
-    "Introducing Word by Word translation in English,Tamil, Malay & Urdu, In Landscape mode click square box icon in header ",
-    "All features of the app are avilable in the header as Feature Guide, click the question mark icon on header",
-    "💙 Share the iHafidh App to your family & friends, earn Hasanath & Sadaqah Jaariyah  when other benefit by reading & memorizing from iHafidh, JazakAllahu Khairan 🌙"
+    "1. Fixed Screen flickering in portrait mode",
+    "2.Word by word translations the dots are removed now for clutter free reading, available when phone switched to landscape mode (turn on Autoroate)",
+    "3.Quran time in home screen is now clickable and shows weekly / monthly stats",
+    "4.Juz mode supports search by entering values from 1 to 30",
+    "5.Qur'anic dua's available in burger menu, fixed on click to navigate to exact verse in Recite mode",
+    "6.Page mode click the brown page icon 📜 in recite tab, Autoscroll available in Page mode",
+    "7.Stats tab overall memorization circles click enabled to see description",
+    "💙 Share the iHafidh App to your family & friends, earn Hasanath & Sadaqah Jaariyah when other benefit by reading & memorizing from iHafidh, JazakAllahu Khairan 🤲"
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
