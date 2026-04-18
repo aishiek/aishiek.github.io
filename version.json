@@ -1,6 +1,6 @@
 {
-  "min_supported": "2.0.9",
-  "latest": "2.1.1",
+  "min_supported": "2.1.0",
+  "latest": "2.1.0",
   "force": false,
   "release_notes": [
     "1. 🎙️ Introducing new AI Quiz mode, record and score 🏆 your recitation one verse at a time (No Tajweed Rules Marking)",
