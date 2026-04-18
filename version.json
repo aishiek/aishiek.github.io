@@ -1,16 +1,11 @@
 {
   "min_supported": "2.0.9",
-  "latest": "2.1.0",
+  "latest": "2.1.1",
   "force": false,
   "release_notes": [
-    "1. Fixed Screen flickering in portrait mode",
-    "2.Word by word translations the dots are removed now for clutter free reading, available when phone switched to landscape mode (turn on Autoroate)",
-    "3.Quran time in home screen is now clickable and shows weekly / monthly stats",
-    "4.Juz mode supports search by entering values from 1 to 30",
-    "5.Qur'anic dua's available in burger menu, fixed on click to navigate to exact verse in Recite mode",
-    "6.Page mode click the brown page icon 📜 in recite tab, Autoscroll available in Page mode",
-    "7.Stats tab overall memorization circles click enabled to see description",
-    "8.Setup tab now shows feature guide (all app features) and what's new buttons (this screen) so users can view anytime even after upgrade",
+    "1. 🎙️ Introducing new AI Quiz mode, record and score 🏆 your recitation one verse at a time",
+    "2. Share your streak with others",
+    "3. Landscape mode has golden progress bar",
     "💙 Share the iHafidh App to your family & friends, earn Hasanath & Sadaqah Jaariyah when other benefit by reading & memorizing from iHafidh, JazakAllahu Khairan 🤲"
   ],
   "android_package_id_override": "com.ihafidh",
