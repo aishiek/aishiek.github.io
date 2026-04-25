@@ -1,13 +1,13 @@
 {
-  "min_supported": "2.1.0",
-  "latest": "2.1.0",
+  "min_supported": "2.1.1",
+  "latest": "2.1.2",
   "force": true,
   "release_notes": [
-    "1. 🎙️ Introducing new AI Quiz mode, record and score 🏆 your recitation one verse at a time (No Tajweed Rules Marking)",
-    "2. Share your streak with others",
-    "3. Landscape mode has golden progress bar",
-    "💙 Share the iHafidh App to your family & friends, earn Hasanath & Sadaqah Jaariyah when other benefit by reading & memorizing from iHafidh, JazakAllahu Khairan 🤲",
-    "Note: AI🤖 can make mistakes and can't be trusted fully so please do expect incorrect responses for quiz in AI Mode " 
+    "1. UX and Stability Release",
+    "2. 🎙️ AI Quiz has new icon",
+    "3. Now you can submit your review comments and rating in one click use the ratings button in setup screen",
+    "✨ Every share is a Sadaqah Jaariyah in the making. Invite your family & friends to iHafidh — and earn ongoing rewards as they read, memorize & grow closer to the Qur'an 📖. JazakAllahu Khairan 🤲",
+    
   ],
   "android_package_id_override": "com.ihafidh",
   "ios_app_id_override": "6752505055",
