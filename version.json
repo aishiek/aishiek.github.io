@@ -1,11 +1,11 @@
 {
-  "min_supported": "2.1.1",
-  "latest": "2.1.2",
+  "min_supported": "2.1.2",
+  "latest": "2.1.3",
   "force": true,
   "release_notes": [
-    "1. UX and Stability Release",
-    "2. 🎙️ AI Quiz has new icon",
-    "3. Now you can submit your review comments and rating in one click use the ratings button in setup screen",
+    "1. 🎙️ AI Quiz now recognizes more Tajweed pronounciatios and strict evaluation without hallcuinations",
+    "2. 📝 Quiz Scorecard still does not evaluate Tajweed",
+    "3. 🗺️ Navigation fixes, Reading Surah or Juz page is retained when you move to other tabs and back to recite tab",
     "✨ Every share is a Sadaqah Jaariyah in the making. Invite your family & friends to iHafidh — and earn ongoing rewards as they read, memorize & grow closer to the Qur'an 📖. JazakAllahu Khairan 🤲"
   ],
   "android_package_id_override": "com.ihafidh",
