@@ -1,7 +1,7 @@
 {
   "min_supported": "2.1.3",
   "latest": "2.1.4",
-  "force": true,
+  "force": false,
   "release_notes": [
     "1. 🎙️ AI Quiz fix for hallcuinations",
     "✨ Every share is a Sadaqah Jaariyah in the making. Invite your family & friends to iHafidh — and earn ongoing rewards as they read, memorize & grow closer to the Qur'an 📖. JazakAllahu Khairan 🤲"
