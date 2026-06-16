@@ -1,6 +1,6 @@
 {
-  "isFeatureEnabled": false,
-  "activeOccasionId": "Ramadan",
+  "isFeatureEnabled": true,
+  "activeOccasionId": "Muharram",
   "occasions": [
     {
       "id": "Ramadan",
