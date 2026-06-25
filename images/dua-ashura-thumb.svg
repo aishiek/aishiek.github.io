@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Dua-e-Ashura — Seven Prophets, One Day of Mercy">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0F3D2E"/>
+      <stop offset="1" stop-color="#1B5E45"/>
+    </linearGradient>
+    <filter id="f" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#g)"/>
+
+  <!-- parchment panel -->
+  <g transform="translate(60,60)">
+    <rect width="1080" height="510" rx="20" fill="#FBF5E6" stroke="#C9A227" stroke-width="10" filter="url(#f)"/>
+    <!-- top header band -->
+    <rect x="0" y="0" width="1080" height="120" rx="12" fill="#0F3D2E"/>
+    <!-- ornament circle (left) -->
+    <circle cx="80" cy="60" r="36" fill="#C9A227"/>
+    <!-- Title -->
+    <g transform="translate(140,28)">
+      <text x="0" y="28" font-family="Cormorant Garamond, serif" font-size="36" fill="#FFF" font-weight="700">Seven Prophets,</text>
+      <text x="0" y="72" font-family="Cormorant Garamond, serif" font-size="36" fill="#FFF" font-weight="700">One Day of Mercy</text>
+      <text x="0" y="102" font-family="Inter, sans-serif" font-size="14" fill="#E8C766" font-style="italic">Dua-e-Ashura · 10 Muharram</text>
+    </g>
+
+    <!-- center icons row -->
+    <g transform="translate(70,160)" font-family="Inter, sans-serif">
+      <!-- icons (use emoji-style glyphs as text for simple SVG) -->
+      <text x="0" y="44" font-size="44" fill="#1B5E45">🤲</text>
+      <text x="110" y="44" font-size="44" fill="#1B5E45">🐋</text>
+      <text x="220" y="44" font-size="44" fill="#1B5E45">🫂</text>
+      <text x="330" y="44" font-size="44" fill="#1B5E45">🦯</text>
+      <text x="440" y="44" font-size="44" fill="#1B5E45">🔥</text>
+      <text x="550" y="44" font-size="44" fill="#1B5E45">🪜</text>
+      <text x="660" y="44" font-size="44" fill="#1B5E45">🐪</text>
+      <text x="770" y="44" font-size="44" fill="#7A2E22">☝️</text>
+    </g>
+
+    <!-- Arabic bismillah in header band (centered) -->
+    <text x="540" y="68" font-family="Amiri, serif" font-size="28" fill="#E8C766" text-anchor="middle" direction="rtl">بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيْمِ</text>
+
+    <!-- footer note -->
+    <text x="540" y="490" font-family="Inter, sans-serif" font-size="13" fill="#5b5345" text-anchor="middle">Dua-e-Ashura — recite on the Day of Ashura</text>
+  </g>
+</svg>
