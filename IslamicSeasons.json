@@ -1,6 +1,6 @@
 {
-  "isFeatureEnabled": false,
-  "activeOccasionId": "Muharram",
+  "isFeatureEnabled": true,
+  "activeOccasionId": "MiladUnNabi",
   "occasions": [
     {
       "id": "Ramadan",
@@ -54,8 +54,8 @@
       "id": "MiladUnNabi",
       "color": "#B03060",
       "actionData": {
-        "title": "Milad-un-Nabi",
-        "message": "Sending blessings and peace upon the Prophet Muhammad (PBUH) on this blessed occasion."
+        "title": "Yaumul Ashura",
+        "message": "May our fasting on Ashura strengthen our faith, purify our hearts and bring us closer to boundless mercy of Allah SWT."
       }
     }
   ]
