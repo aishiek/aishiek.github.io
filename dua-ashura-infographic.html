@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dua-e-Ashura — Seven Prophets, One Day of Mercy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF5E6;
+    --parchment:#F5ECD8;
+    --green-deep:#0F3D2E;
+    --green:#1B5E45;
+    --gold:#C9A227;
+    --gold-light:#E8C766;
+    --maroon:#7A2E22;
+    --ink:#241F16;
+    --ink-soft:#5b5345;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--green-deep);
+    font-family:'Inter',sans-serif;
+    color:var(--ink);
+    display:flex;
+    justify-content:center;
+  }
+  .page{
+    width:100%;
+    max-width:460px;
+    background:var(--cream);
+    position:relative;
+    overflow:hidden;
+    border:10px solid var(--green-deep);
+  }
+  .frame{
+    border:2px solid var(--gold);
+    margin:8px;
+    padding:0 0 28px 0;
+    position:relative;
+  }
+  .corner{
+    position:absolute;
+    width:34px;height:34px;
+    border:2px solid var(--gold);
+    opacity:.9;
+  }
+  .corner.tl{top:-2px;left:-2px;border-right:none;border-bottom:none;}
+  .corner.tr{top:-2px;right:-2px;border-left:none;border-bottom:none;}
+  .corner.bl{bottom:6px;left:-2px;border-right:none;border-top:none;}
+  .corner.br{bottom:6px;right:-2px;border-left:none;border-top:none;}
+
+  header{
+    text-align:center;
+    padding:30px 26px 26px;
+    background:var(--green-deep);
+    color:var(--gold-light);
+  }
+  .bismillah{
+    font-family:'Amiri',serif;
+    font-size:30px;
+    color:var(--gold-light);
+    margin:0 0 14px;
+    letter-spacing:.5px;
+  }
+  .eyebrow{
+    font-size:11px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:var(--gold-light);
+    opacity:.85;
+    margin:0 0 8px;
+  }
+  h1{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:700;
+    font-size:30px;
+    line-height:1.15;
+    margin:0 0 10px;
+    color:#fff;
+  }
+  .sub{
+    font-size:13px;
+    color:var(--gold-light);
+    opacity:.9;
+    margin:0;
+    font-style:italic;
+  }
+
+  .intro{
+    margin:22px 22px 6px;
+    background:rgba(201,162,39,0.08);
+    border-left:3px solid var(--gold);
+    padding:14px 16px;
+    font-size:12.5px;
+    line-height:1.6;
+    color:var(--ink-soft);
+  }
+  .intro b{color:var(--green-deep);}
+
+  .chain-title{
+    text-align:center;
+    margin:26px 0 6px;
+    font-family:'Cormorant Garamond',serif;
+    font-size:18px;
+    font-weight:600;
+    color:var(--green-deep);
+    letter-spacing:.5px;
+  }
+  .chain-title span{
+    display:block;
+    font-family:'Inter',sans-serif;
+    font-size:10.5px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--maroon);
+    margin-top:3px;
+    font-weight:600;
+  }
+
+  .thread{
+    position:relative;
+    margin:18px 28px 0;
+    padding-left:0;
+  }
+  .thread::before{
+    content:"";
+    position:absolute;
+    left:29px;
+    top:6px;
+    bottom:6px;
+    width:2px;
+    background:repeating-linear-gradient(to bottom, var(--gold) 0 6px, transparent 6px 11px);
+  }
+  .bead{
+    position:relative;
+    display:flex;
+    gap:14px;
+    padding:14px 0;
+  }
+  .bead .icon{
+    flex:0 0 60px;
+    width:60px;height:60px;
+    border-radius:50%;
+    background:radial-gradient(circle at 32% 28%, var(--gold-light), var(--gold) 70%);
+    border:2px solid var(--green-deep);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    z-index:2;
+    box-shadow:0 2px 4px rgba(0,0,0,.25);
+  }
+  .bead .text{
+    flex:1;
+    padding-top:2px;
+  }
+  .bead .name{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:700;
+    font-size:16.5px;
+    color:var(--green-deep);
+    margin:0 0 2px;
+  }
+  .bead .name small{
+    font-family:'Inter',sans-serif;
+    font-weight:500;
+    font-size:10.5px;
+    color:var(--maroon);
+    letter-spacing:.5px;
+  }
+  .bead .ar{
+    font-family:'Amiri',serif;
+    font-size:16px;
+    color:var(--green);
+    direction:rtl;
+    line-height:1.7;
+    margin:3px 0 4px;
+  }
+  .bead .en{
+    font-size:12.5px;
+    line-height:1.5;
+    color:var(--ink);
+    margin:0;
+  }
+
+  .bead.final .icon{
+    background:radial-gradient(circle at 32% 28%, var(--gold-light), var(--maroon) 80%);
+    font-size:24px;
+  }
+
+  .closing{
+    margin:28px 22px 0;
+    background:var(--green-deep);
+    color:var(--cream);
+    padding:20px 18px;
+    border-radius:6px;
+    position:relative;
+  }
+  .closing::before{
+    content:"";
+    position:absolute;
+    top:8px;left:8px;right:8px;bottom:8px;
+    border:1px solid var(--gold);
+    pointer-events:none;
+  }
+  .closing h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:16px;
+    color:var(--gold-light);
+    margin:0 0 10px;
+    text-align:center;
+    letter-spacing:.5px;
+  }
+  .closing .ar{
+    font-family:'Amiri',serif;
+    font-size:16px;
+    direction:rtl;
+    line-height:1.8;
+    color:var(--gold-light);
+    margin:0 0 8px;
+  }
+  .closing p{
+    font-size:12.5px;
+    line-height:1.65;
+    margin:0 0 12px;
+    color:#EFE7D4;
+  }
+  .closing p:last-child{margin-bottom:0;}
+  .closing .fam{
+    border-top:1px solid rgba(201,162,39,.4);
+    padding-top:12px;
+  }
+  .closing .fam .ar{color:var(--gold-light);}
+  .closing .fam .en{font-style:italic;color:var(--gold-light);margin:0;}
+
+  .tasbih-note{
+    margin:18px 22px 0;
+    padding:14px 16px;
+    background:var(--parchment);
+    border:1px dashed var(--gold);
+    font-size:11.5px;
+    line-height:1.6;
+    color:var(--ink-soft);
+  }
+  .tasbih-note .tag{
+    display:inline-block;
+    font-size:10px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--maroon);
+    font-weight:600;
+    margin-bottom:6px;
+  }
+  .tasbih-note .ar{
+    font-family:'Amiri',serif;
+    font-size:15.5px;
+    direction:rtl;
+    line-height:1.85;
+    color:var(--green-deep);
+    margin:0 0 8px;
+  }
+  .tasbih-note .en{
+    margin:0;
+  }
+
+  footer{
+    text-align:center;
+    padding:24px 20px 4px;
+  }
+  footer .ameen{
+    font-family:'Amiri',serif;
+    font-size:22px;
+    color:var(--green-deep);
+  }
+  footer .small{
+    font-size:10px;
+    color:var(--ink-soft);
+    margin-top:8px;
+    letter-spacing:1px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="frame">
+    <div class="corner tl"></div>
+    <div class="corner tr"></div>
+    <div class="corner bl"></div>
+    <div class="corner br"></div>
+
+    <header>
+      <p class="bismillah">بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+      <p class="eyebrow">10th Muharram · Day of Ashura</p>
+      <h1>Seven Prophets,<br>One Day of Mercy</h1>
+      <p class="sub">Dua-e-Ashura — every distress answered on the same day</p>
+    </header>
+
+    <div class="intro">
+      <b>On the virtue of this dua:</b> it is narrated from Imam Zainul Abideen (RA) that whoever recites it once on the Day of Ashura, between sunrise and sunset — or asks someone to recite it for them — will, Allah willing, be granted protection through the coming year.
+    </div>
+
+    <p class="chain-title">A Chain of Answered Prayers<span>Each bead, a relief sent on Ashura</span></p>
+
+    <div class="thread">
+
+      <div class="bead">
+        <div class="icon">🤲</div>
+        <div class="text">
+          <p class="name">Adam <small>ALAYHIS SALAM</small></p>
+          <p class="ar">یَا قَابِلَ تَوْبَۃِ آدَمَ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Accepter of Adam's repentance, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead">
+        <div class="icon">🐋</div>
+        <div class="text">
+          <p class="name">Yunus <small>ALAYHIS SALAM</small></p>
+          <p class="ar">یَا فَارِجَ کَرْبِ ذِی النُّوْنِ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Reliever of the distress of the one swallowed by the whale, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead">
+        <div class="icon">🫂</div>
+        <div class="text">
+          <p class="name">Yaqub <small>ALAYHIS SALAM</small></p>
+          <p class="ar">یَا جَامِعَ شَمْلِ یَعْقُوْبَ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Gatherer of Yaqub's scattered family, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead">
+        <div class="icon">🦯</div>
+        <div class="text">
+          <p class="name">Musa &amp; Harun <small>ALAYHIMUS SALAM</small></p>
+          <p class="ar">یَا سَامِعَ دَعْوَۃِ مُوْسٰی وَهَارُوْنَ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Hearer of the prayer of Musa and Harun, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead">
+        <div class="icon">🔥</div>
+        <div class="text">
+          <p class="name">Ibrahim <small>ALAYHIS SALAM</small></p>
+          <p class="ar">یَا مُغِیْثَ اِبْرَاهِیْمَ مِنَ النَّارِ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Rescuer of Ibrahim from the fire, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead">
+        <div class="icon">🪜</div>
+        <div class="text">
+          <p class="name">Idris <small>ALAYHIS SALAM</small></p>
+          <p class="ar">یَا رَافِعَ اِدْرِیْسَ اِلَی السَّمَآءِ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Raiser of Idris to the heavens, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead">
+        <div class="icon">🐪</div>
+        <div class="text">
+          <p class="name">Salih <small>ALAYHIS SALAM</small></p>
+          <p class="ar">یَا مُجِیْبَ دَعْوَۃِ صَالِحٍ فِی النَّاقَۃِ یَوْمَ عَاشُوْرَآءَ</p>
+          <p class="en">O Answerer of Salih's prayer concerning the she-camel, on the Day of Ashura.</p>
+        </div>
+      </div>
+
+      <div class="bead final">
+        <div class="icon">☝️</div>
+        <div class="text">
+          <p class="name">Sayyiduna Muhammad <small>SALLALLAHU ALAYHI WA SALLAM</small></p>
+          <p class="en">O Most Merciful of this world and the next — send blessings upon our master Muhammad and his family, as upon every other Ashura mercy was sent down.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="closing">
+      <h2>The Final Plea</h2>
+      <p class="ar">یَا رَحْمٰنَ الدُّنْیَا وَالْاٰخِرَۃِ وَرَحِیْمَهُمَا<br>صَلِّ عَلٰی سَیِّدِنَا مُحَمَّدٍ وَّعَلٰی اٰلِ سَیِّدِنَا مُحَمَّدٍ<br>وَّصَلِّ عَلٰی جَمِیْعِ الْاَنْبِیَآءِ وَالْمُرْسَلِیْنَ<br>وَاقْضِ حَاجَاتِنَا فِی الدُّنْیَا وَالْاٰخِرَۃِ<br>وَاَطِلْ عُمْرَنَا فِیْ طَاعَتِکَ وَمَحَبَّتِکَ وَرِضَاکَ<br>وَاَحْیِنَا حَیَاۃً طَیِّبَۃً وَّتَوَفَّنَا عَلَی الْاِیْمَانِ وَالْاِسْلَامِ<br>بِرَحْمَتِکَ یَآ اَرْحَمَ الرَّاحِمِیْنَ</p>
+      <p>O Most Merciful of this world and the next, and the Most Compassionate of the two — send blessings upon our master Muhammad and upon the family of our master Muhammad, and send blessings upon all the prophets and messengers. Fulfil our needs in this world and the next. Lengthen our lives in Your obedience, Your love, and Your pleasure. Let us live a good life, and let us pass away upon faith and Islam, by Your mercy, O Most Merciful of the merciful.</p>
+      <div class="fam">
+        <p class="ar">اَللّٰهُمَّ بِعِزِّ الْحَسَنِ وَاَخِیْهِ وَاُمِّہٖ<br>وَاَبِیْہِ وَجَدِّہٖ وَبَنِیْہِ فَرِّجْ عَنَّا مَا نَحْنُ فِیْہِ</p>
+        <p class="en">O Allah — by the honour of Hasan, his brother, their mother, their father, their grandfather, and his sons — relieve us from what we are in.</p>
+      </div>
+    </div>
+
+    <div class="tasbih-note">
+      <span class="tag">Then recited twelve times</span>
+      <p class="ar">سُبْحَانَ اللهِ مِلْءَ الْمِیْزَانِ وَمُنْتَهَی الْعِلْمِ<br>وَمَبْلَغَ الرِّضٰی وَزِنَۃَ الْعَرْشِ<br>لَا مَلْجَأَ وَلَا مَنْجَا مِنَ اللهِ اِلَّا اِلَیْهِ،<br>سُبْحَانَ اللهِ عَدَدَ الشَّفْعِ وَالْوِتْرِ<br>وَعَدَدَ کَلِمَاتِ اللهِ التَّآمَّاتِ کُلِّهَا،<br>نَسْئَلُکَ السَّلَامَۃَ بِرَحْمَتِکَ یَآ اَرْحَمَ الرَّاحِمِیْنَ،<br>وَهُوَ حَسْبُنَا وَنِعْمَ الْوَکِیْلُ، نِعْمَ الْمَوْلٰی وَنِعْمَ النَّصِیْرُ،<br>وَلَا حَوْلَ وَلَا قُوَّۃَ اِلَّا بِاللهِ الْعَلِیِّ الْعَظِیْمِ</p>
+      <p class="en">Glory be to Allah — Whose worth fills the scale, whose limit reaches the utmost of knowledge, who attains the full pleasure of the Throne. There is no refuge, no escape, and no shelter from Allah except unto Him. Glory be to Allah, by the count of every odd and even thing, and by the count of all of Allah's perfect words. We ask You for safety by Your mercy, O Most Merciful of the merciful. He is sufficient for us, the best Guardian, the best Master, and the best Helper. There is no power and no strength except by Allah, the Exalted, the Magnificent.</p>
+    </div>
+
+    <footer>
+      <p class="ameen">آمين</p>
+      <p class="small">DUA-E-ASHURA · 10 MUHARRAM</p>
+    </footer>
+
+  </div>
+</div>
+</body>
+</html>
