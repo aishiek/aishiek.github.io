@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Loving Memory - Clean Render</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b2216;
+            --text-primary: #f4f1ea;
+            --accent-gold: #dfba73;
+            --text-muted: #a3b8ad;
+            --border-color: rgba(223, 186, 115, 0.15);
+        }
+
+        body {
+            background-color: #1a1a1a;
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            color: var(--text-primary);
+        }
+
+        .container {
+            background-color: var(--bg-color);
+            width: 100%;
+            max-width: 550px;
+            padding: 50px 40px;
+            box-sizing: border-box;
+            border: 1px solid rgba(223, 186, 115, 0.3);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            position: relative;
+        }
+
+        /* Header Styling */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .crescent {
+            font-size: 20px;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .subtitle-top {
+            font-family: 'Cinzel', serif;
+            font-size: 10px;
+            letter-spacing: 4px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .main-title {
+            font-family: 'Cinzel', serif;
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 0 0 4px 0;
+            letter-spacing: 1px;
+        }
+
+        .subtitle-bottom {
+            font-size: 13px;
+            font-style: italic;
+            color: var(--accent-gold);
+            margin-top: 0;
+        }
+
+        /* List Layout */
+        .list-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .name-col {
+            flex: 1;
+            padding-right: 20px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.4;
+            color: var(--text-primary);
+        }
+
+        .date-col {
+            text-align: right;
+            min-width: 130px;
+            border-left: 1px solid var(--border-color);
+            padding-left: 20px;
+        }
+
+        .gregorian-date {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+
+        .islamic-date {
+            font-size: 11.5px;
+            font-style: italic;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+        }
+
+        /* Footer Styling */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+        }
+
+        .arabic-text {
+            font-family: 'Times New Roman', serif;
+            font-size: 22px;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+            direction: rtl;
+        }
+
+        .english-translation {
+            font-family: 'Cinzel', serif;
+            font-size: 9px;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="crescent">🌙</span>
+        <div class="subtitle-top">Family Remembrance</div>
+        <h1 class="main-title">In Loving Memory</h1>
+        <p class="subtitle-bottom">Dates to Remember Them By</p>
+    </div>
+
+    <div class="list-container">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="name-col">Abdul Muhammad Appa bin Abdul Quadir</div>
+            <div class="date-col">
+                <div class="gregorian-date">21 Aug 1974</div>
+                <div class="islamic-date">3 Sha'ban</div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="name-col">Johra Bivi Binte Abdul Mohamed</div>
+            <div class="date-col">
+                <div class="gregorian-date">27 Dec 1982</div>
+                <div class="islamic-date">11 Rabi'al-Awwal</div>
+            </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="name-col">Hajira Ammal Binte Kader Batcha</div>
+            <div class="date-col">
+                <div class="gregorian-date">20 Jan 1983</div>
+                <div class="islamic-date">6 Rabi'al-Thani</div>
+            </div>
+        </div>
+        <!-- Row 4 -->
+        <div class="row">
+            <div class="name-col">Athaa</div>
+            <div class="date-col">
+                <div class="gregorian-date">20 Jul 1988</div>
+                <div class="islamic-date">5 Dhul Hijjah</div>
+            </div>
+        </div>
+        <!-- Row 5 -->
+        <div class="row">
+            <div class="name-col">Bade Peer Shahib</div>
+            <div class="date-col">
+                <div class="gregorian-date">20 Mar 1997</div>
+                <div class="islamic-date">10 Dhul Qa'da</div>
+            </div>
+        </div>
+        <!-- Row 6 -->
+        <div class="row">
+            <div class="name-col">K.B Iqbal Annan</div>
+            <div class="date-col">
+                <div class="gregorian-date">18 Mar 2011</div>
+                <div class="islamic-date">13 Rabi'al-Thani</div>
+            </div>
+        </div>
+        <!-- Row 7 -->
+        <div class="row">
+            <div class="name-col">Noorul Ameen Chacha</div>
+            <div class="date-col">
+                <div class="gregorian-date">15 Jun 2016</div>
+                <div class="islamic-date">9 Ramadan</div>
+            </div>
+        </div>
+        <!-- Row 8 -->
+        <div class="row">
+            <div class="name-col">Habib Rahman Chacha</div>
+            <div class="date-col">
+                <div class="gregorian-date">25 Dec 2017</div>
+                <div class="islamic-date">7 Rabi'al-Thani</div>
+            </div>
+        </div>
+        <!-- Row 9 -->
+        <div class="row">
+            <div class="name-col">Sha Shaib</div>
+            <div class="date-col">
+                <div class="gregorian-date">23 Sep 2019</div>
+                <div class="islamic-date">23 Muharram</div>
+            </div>
+        </div>
+        <!-- Row 10 -->
+        <div class="row">
+            <div class="name-col">Basheer Periyatha</div>
+            <div class="date-col">
+                <div class="gregorian-date">5 Dec 2019</div>
+                <div class="islamic-date">8 Rabi'al-Thani</div>
+            </div>
+        </div>
+        <!-- Row 11 -->
+        <div class="row">
+            <div class="name-col">Usman Chacha</div>
+            <div class="date-col">
+                <div class="gregorian-date">11 Jul 2020</div>
+                <div class="islamic-date">20 Dhul Qa'da</div>
+            </div>
+        </div>
+        <!-- Row 12 -->
+        <div class="row">
+            <div class="name-col">Ponnachi Chinamma</div>
+            <div class="date-col">
+                <div class="gregorian-date">1 Aug 2020</div>
+                <div class="islamic-date">12 Dhul Hijjah</div>
+            </div>
+        </div>
+        <!-- Row 13 -->
+        <div class="row">
+            <div class="name-col">Ameer Mama</div>
+            <div class="date-col">
+                <div class="gregorian-date">30 Nov 2020</div>
+                <div class="islamic-date">15 Rabi'al-Thani</div>
+            </div>
+        </div>
+        <!-- Row 14 -->
+        <div class="row">
+            <div class="name-col">Bawa Mama</div>
+            <div class="date-col">
+                <div class="gregorian-date">11 Dec 2020</div>
+                <div class="islamic-date">26 Rabi'al-Thani</div>
+            </div>
+        </div>
+        <!-- Row 15 -->
+        <div class="row">
+            <div class="name-col">Syed Machan</div>
+            <div class="date-col">
+                <div class="gregorian-date">11 Feb 2021</div>
+                <div class="islamic-date">27 Jumadal Aakhir</div>
+            </div>
+        </div>
+        <!-- Row 16 -->
+        <div class="row">
+            <div class="name-col">Ashraf Ali</div>
+            <div class="date-col">
+                <div class="gregorian-date">31 May 2021</div>
+                <div class="islamic-date">19 Shawwal</div>
+            </div>
+        </div>
+        <!-- Row 17 -->
+        <div class="row">
+            <div class="name-col">Fowzia Chinamma</div>
+            <div class="date-col">
+                <div class="gregorian-date">4 Apr 2022</div>
+                <div class="islamic-date">2 Ramadan</div>
+            </div>
+        </div>
+        <!-- Row 18 -->
+        <div class="row">
+            <div class="name-col">Sister Fathima</div>
+            <div class="date-col">
+                <div class="gregorian-date">3 Aug 2022</div>
+                <div class="islamic-date">4 Muharram</div>
+            </div>
+        </div>
+        <!-- Row 19 -->
+        <div class="row">
+            <div class="name-col">Rajiya Machi</div>
+            <div class="date-col">
+                <div class="gregorian-date">2 Dec 2022</div>
+                <div class="islamic-date">8 Jumada al-Awwal</div>
+            </div>
+        </div>
+        <!-- Row 20 -->
+        <div class="row">
+            <div class="name-col">Amna</div>
+            <div class="date-col">
+                <div class="gregorian-date">3 Mar 2025</div>
+                <div class="islamic-date">2 Ramadan</div>
+            </div>
+        </div>
+        <!-- Row 21 -->
+        <div class="row">
+            <div class="name-col">Ponnachi Akka</div>
+            <div class="date-col">
+                <div class="gregorian-date">22 Jan 2026</div>
+                <div class="islamic-date">2 Sha'ban</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="arabic-text">إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ</div>
+        <div class="english-translation">To Allah We Belong And To Him We Return</div>
+    </div>
+</div>
+
+</body>
+</html>
