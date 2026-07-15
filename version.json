@@ -1,6 +1,6 @@
 {
-  "min_supported": "2.1.4",
-  "latest": "2.1.5",
+  "min_supported": "2.1.6",
+  "latest": "2.2.1",
   "force": true,
   "release_notes": [
     "release_notes": [
