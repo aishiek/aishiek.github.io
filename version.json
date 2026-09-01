@@ -1,11 +1,9 @@
 {
   "min_supported": "2.1.6",
-  "latest": "2.2.2",
+  "latest": "2.2.4",
   "force": true,
   "release_notes": [
-  "🔥 Track your daily Qur'an habit with the new Reading Streak icon in the header — iHafidh is now a true Qur'an habit-building app!",
-  "👥 Introducing Community Stats! See how the Ummah is using iHafidh — motivation galore 🚀, click on Stats tab to view community stats",
-  "🌙 Smart Fasting Notifications, plus other stability fixes.",
+  "Tajweed font fixes released",
   "🌍 Tap \"Memorized\" or \"Revised\" again on your past verses to count yourself in the Ummah Stats — every tap adds to the collective journey!",
   "✨ Every share is a Sadaqah Jaariyah in the making. Invite your family & friends to iHafidh and earn ongoing rewards as they read, memorize & grow closer to the Qur'an 📖. JazakAllahu Khairan 🤲"
   ],
