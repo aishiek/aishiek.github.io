@@ -1,5 +1,5 @@
 {
-  "min_supported": "2.1.6",
+  "min_supported": "2.2.5",
   "latest": "2.2.5",
   "force": true,
   "release_notes": [
