@@ -1,6 +1,6 @@
 {
-  "isFeatureEnabled": false,
-  "activeOccasionId": "Muharram",
+  "isFeatureEnabled": true,
+  "activeOccasionId": "MiladUnNabi",
   "occasions": [
     {
       "id": "Ramadan",
@@ -52,10 +52,10 @@
     },
     {
       "id": "MiladUnNabi",
-      "color": "#B03060",
+      "color": "#2B0F18",
       "actionData": {
-        "title": "Yaumul Ashura",
-        "message": "May our fasting on Ashura strengthen our faith, purify our hearts and bring us closer to boundless mercy of Allah SWT."
+        "title": "Introducing Cherishly! \nGet 30% Off Lifetime 🤎",
+        "message": "We built a new app to beautifully preserve memories of your loved ones. Learn more at https://cherishlyapp.com \n\n🤖 Android users: Enter promo code 'iHafidh' inside the app.\n🍏 iOS users: Redeem code 'IHAFIDH' on the App Store."
       }
     }
   ]
