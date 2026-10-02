@@ -7,7 +7,7 @@
       "color": "#FFC107",
       "actionData": {
         "title": "Juz 28",
-        "message": "Had We sent down this Quran upon a mountain, you would have certainly seen it humbled and torn apart in awe of Allah. We set forth such comparisons for people, perhaps they may reflect."
+        "message": "Had We sent down this Quran upon a mountain, you would have certainly seen it humbled and torn apart in awe of Allah. We set forth such comparisons for people, perhaps they may reflect and remember."
       }
     },
     {
@@ -51,13 +51,12 @@
       }
     },
     {
-    "id": "MiladUnNabi",
-    "color": "#170609",
-    "actionData": {
-      "title": "Introducing Cherishly! \nGet 30% Off Lifetime 🤎",
-    "message": "We built a new app to beautifully preserve memories of your loved ones. Learn more:\nhttps://cherishlyapp.com\n\n🤖 Android users: Enter promo code 'iHafidh' inside the app.\n\n🍏 iOS users,  redeem:\nhttps://apps.apple.com/redeem?ctx=offercodes&id=6794868991&code=IHAFIDH"
-    }
-}
+      "id": "MiladUnNabi",
+      "color": "#170609",
+      "actionData": {
+        "title": "Introducing Cherishly! \nGet 30% Off Lifetime 🤎",
+        "message": "We built a new app to beautifully preserve memories of your loved ones. Learn more at https://cherishlyapp.com \n\n🤖 Android users: Enter promo code 'iHafidh' inside the app."
+      }
     }
   ]
 }
