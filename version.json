@@ -1,6 +1,6 @@
 {
-  "min_supported": "2.2.6",
-  "latest": "2.2.7",
+  "min_supported": "2.2.5",
+  "latest": "2.2.6",
   "force": true,
   "release_notes": [
   "🤝 Introducing Group Khatam! Create a share link so participants can update their status together. Find it in the burger menu.",
