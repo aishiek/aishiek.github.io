@@ -1,9 +1,9 @@
 {
-  "min_supported": "2.2.7",
-  "latest": "2.2.7",
+  "min_supported": "2.2.8",
+  "latest": "2.2.8",
   "force": true,
   "release_notes": [
-  "🤝 Introducing Group Khatam! Create a share link so participants can update their status together. Find it in the burger menu.",
+  "🤝 Fresh New App Icon — A beautifully refined, elegant logo for your home screen and other bug fixes",
   "✨ Every share is a Sadaqah Jaariyah in the making. Invite your family & friends to iHafidh and earn ongoing rewards as they read, memorize & grow closer to the Qur'an 📖. JazakAllahu Khairan 🤲"
 ],
   "android_package_id_override": "com.ihafidh",
